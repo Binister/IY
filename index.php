@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jollyness - HTML5 Website Template</title>
+    <title>Welkom in de wereld van InsightYou. Welkom bij jezelf.</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
