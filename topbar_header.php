@@ -5,7 +5,7 @@
                        <div class="logo-wrapper clearfix">
 							<div class="logo">
 								<a href="index.html" title="Home">
-									<img src="images/logo.png" alt="Estate">
+									<img src="images/logoiy.png" alt="Estate">
 								</a>
 							</div><!-- /.site-name -->
 						</div><!-- /.logo-wrapper -->

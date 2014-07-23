@@ -40,9 +40,9 @@
 
     <div class="wrapper">
 
-<?php 
-require_once 'topbar_header.php';
-?>	           
+        <?php 
+        require_once 'topbar_header.php';
+        ?>	           
 
         <section class="sliderwrapper clearfix">
             <div class="tp-banner-container">
