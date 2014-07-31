@@ -4,8 +4,8 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                        <div class="logo-wrapper clearfix">
 							<div class="logo">
-								<a href="index.html" title="Home">
-									<img src="images/logoiy.png" alt="Estate">
+								<a href="index.php" title="Home">
+									<img src="images/logoiy.png" alt="Estate" width="200">
 								</a>
 							</div><!-- /.site-name -->
 						</div><!-- /.logo-wrapper -->
