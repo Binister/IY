@@ -43,7 +43,7 @@
         <?php 
         require_once 'topbar_header.php';
         ?>	           
-
+        
         <section class="sliderwrapper clearfix">
             <div class="tp-banner-container">
                 <div class="tp-banner" >
@@ -51,7 +51,7 @@
                    		<!-- SLIDE  -->
                         <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
                             <!-- MAIN IMAGE -->
-                            <img src="slider-images/02_bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                            <img src="slider-images/07_bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
         
                             <!-- LAYER NR. 2 -->
@@ -65,7 +65,7 @@
                                 data-easing="Power4.easeOut"
                                 data-endspeed="500"
                                 data-endeasing="Power4.easeIn"
-                                style="z-index: 3"><img src="slider-images/logo.png" alt="">
+                                style="z-index: 3"><img src="images/logoiy.png" alt="">
                             </div>
                             
                             <!-- LAYER NR. 3 -->
@@ -99,7 +99,7 @@
                     	<!-- SLIDE  -->
                         <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
                             <!-- MAIN IMAGE -->
-                            <img src="slider-images/01_bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                            <img src="slider-images/07_bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
                             
                             <!-- LAYER NR. 2 -->
@@ -190,7 +190,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                     	<!-- SLIDE  -->
                         <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
                             <!-- MAIN IMAGE -->
-                            <img src="slider-images/01_bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                            <img src="slider-images/07_bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
         
                             <!-- LAYER NR. 2 -->
@@ -283,610 +283,65 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                 </div>
 			</div>       
         </section><!-- end slider-wrapper -->  
-               
+        
         <section class="whitewrapper bordertop clearfix">
-        	<div class="container">
-            	<div class="row">
-                    <div id="services" class="owl-carousel">
-                        <div class="item">
-                            <div class="servicesbox lazyOwl">
-                                <div class="title">
-                                    <div class="serviceicon">
-                                        <i class="fa fa-lightbulb-o"></i>
-                                    </div>
-                                    <h3>Superb Design Layout</h3>
-                                </div>
-                                <p>Duis sit amet orci et lectus dictum auctor a nec enim. Donec suscipit fringilla elementum.. Vestibulum hendrerit diam nunc, in tempus urna rhoncus faucibus.</p>
-                            </div><!-- end servicesboxes -->
-                        </div><!-- end item -->
-    
-                        <div class="item">
-                            <div class="servicesbox lazyOwl">
-                                <div class="title">
-                                    <div class="serviceicon">
-                                        <i class="fa fa-share-square-o"></i>
-                                    </div>
-                                    <h3>Drag & Drop Builder</h3>
-                                </div>
-                                <p>Duis sit amet orci et lectus dictum auctor a nec enim. Donec suscipit fringilla elementum.. Vestibulum hendrerit diam nunc, in tempus urna rhoncus faucibus.</p>
-                            </div><!-- end servicesboxes -->
-                        </div><!-- end item -->
-                        
-                        <div class="item">
-                            <div class="servicesbox lazyOwl">
-                                <div class="title">
-                                    <div class="serviceicon">
-                                        <i class="fa fa-headphones"></i>
-                                    </div>
-                                    <h3>Regular Updates & Free Support</h3>
-                                </div>
-                                <p>Duis sit amet orci et lectus dictum auctor a nec enim. Donec suscipit fringilla elementum.. Vestibulum hendrerit diam nunc, in tempus urna rhoncus faucibus.</p>
-                            </div><!-- end servicesboxes -->
-                        </div><!-- end item -->
-
-                        <div class="item">
-                            <div class="servicesbox lazyOwl">
-                                <div class="title">
-                                    <div class="serviceicon">
-                                        <i class="fa fa-laptop"></i>
-                                    </div>
-                                    <h3>Responsive Layout Design</h3>
-                                </div>
-                                <p>Duis sit amet orci et lectus dictum auctor a nec enim. Donec suscipit fringilla elementum.. Vestibulum hendrerit diam nunc, in tempus urna rhoncus faucibus.</p>
-                            </div><!-- end servicesboxes -->
-                        </div><!-- end item -->
-    
-                        <div class="item">
-                            <div class="servicesbox lazyOwl">
-                                <div class="title">
-                                    <div class="serviceicon">
-                                        <i class="fa fa-eye"></i>
-                                    </div>
-                                    <h3>Retina Display</h3>
-                                </div>
-                                <p>Duis sit amet orci et lectus dictum auctor a nec enim. Donec suscipit fringilla elementum.. Vestibulum hendrerit diam nunc, in tempus urna rhoncus faucibus.</p>
-                            </div><!-- end servicesboxes -->
-                        </div><!-- end item -->
-                        
-                        <div class="item">
-                            <div class="servicesbox lazyOwl">
-                                <div class="title">
-                                    <div class="serviceicon">
-                                        <i class="fa fa-folder-open-o"></i>
-                                    </div>
-                                    <h3>Detailed Documentation</h3>
-                                </div>
-                                <p>Duis sit amet orci et lectus dictum auctor a nec enim. Donec suscipit fringilla elementum.. Vestibulum hendrerit diam nunc, in tempus urna rhoncus faucibus.</p>
-                            </div><!-- end servicesboxes -->
-                        </div><!-- end item -->
-
-                        <div class="item">
-                            <div class="servicesbox lazyOwl">
-                                <div class="title">
-                                    <div class="serviceicon">
-                                        <i class="fa fa-twitter"></i>
-                                    </div>
-                                    <h3>Social Media Friendly</h3>
-                                </div>
-                                <p>Duis sit amet orci et lectus dictum auctor a nec enim. Donec suscipit fringilla elementum.. Vestibulum hendrerit diam nunc, in tempus urna rhoncus faucibus.</p>
-                            </div><!-- end servicesboxes -->
-                        </div><!-- end item -->
-    
-                        <div class="item">
-                            <div class="servicesbox lazyOwl">
-                                <div class="title">
-                                    <div class="serviceicon">
-                                        <i class="fa fa-bar-chart-o"></i>
-                                    </div>
-                                    <h3>SEO Optimized</h3>
-                                </div>
-                                <p>Duis sit amet orci et lectus dictum auctor a nec enim. Donec suscipit fringilla elementum.. Vestibulum hendrerit diam nunc, in tempus urna rhoncus faucibus.</p>
-                            </div><!-- end servicesboxes -->
-                        </div><!-- end item -->
-                        
-                        <div class="item">
-                            <div class="servicesbox lazyOwl">
-                                <div class="title">
-                                    <div class="serviceicon">
-                                        <i class="fa fa-html5"></i>
-                                    </div>
-                                    <h3>HTML5 and CSS3</h3>
-                                </div>
-                                <p>Duis sit amet orci et lectus dictum auctor a nec enim. Donec suscipit fringilla elementum.. Vestibulum hendrerit diam nunc, in tempus urna rhoncus faucibus.</p>
-                            </div><!-- end servicesboxes -->
-                        </div><!-- end item -->
-                    </div><!-- end owl -->
-            	</div><!-- end row -->
-            </div><!-- end container -->
-        </section><!-- end whitewrapper -->
-        
-		<section id="three-parallax" class="parallax" style="background-image: url('demos/02_parallax.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-			<div class="overlay darkwrapper paddingtop">
-                <div class="container">
-                    <div class="row">
-                        <div class="title text-center">
-                            <h1>OUR WORKING PROCESS</h1>
-                            <hr>
-                            <p class="lead">Jollyness comes with an easy drag and drop editor  via the Visual Composer making it easy to setup new sites in little to no time!</p>
+            <div class="container">
+                <div class="row">
+                    <div class="about_icons text-center">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-box">
+                                <i class="hovicon effect-1 sub-a fa fa-lock fa-3x"></i>
+                                <div class="title"><h3>Privacy voorop</h3></div>
+                                <p>Jouw profiel is voor jou alleen. Het is daarna aan jou of je de inzichten met anderen wilt delen.</p>
+                            </div>
                         </div>
-                        <div class="image-wrap text-center" data-effect="slide-bottom">
-                            <img src="demos/01_about.png" alt="">
+                    
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-box">
+                                <i class="hovicon effect-1 sub-a fa fa-bar-chart-o fa-3x"></i>
+                                <div class="title"><h3>Inzicht in jezelf</h3></div>
+                                <p>Om te kunnen groeien moet je weten waar je nu staat. Wij brengen jouw commerciële drives in kaart.</p>
+                            </div>
                         </div>
                         
-                        <div class="clearfix"></div>
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="servicesbox" data-effect="helix">
-                                <div class="title">
-                                    <div class="serviceicon">
-                                        <i class="fa fa-crosshairs"></i>
-                                    </div>
-                                    <h3>Planning & Discussing with Team</h3>
-                                    <p>Duis sit amet orci et lectus dictum auctor a nec enim.</p>
-                                </div>
-                            </div><!-- end servicesboxes -->
-                        </div><!-- end col-lg-4 -->
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="servicesbox" data-effect="helix">
-                                <div class="title">
-                                    <div class="serviceicon">
-                                        <i class="fa fa-magic"></i>
-                                    </div>
-                                    <h3>Designing & Development</h3>
-                                    <p>Duis sit amet orci et lectus dictum auctor a nec enim.</p>
-                                </div>
-                            </div><!-- end servicesboxes -->
-                        </div><!-- end col-lg-4 -->
-                        
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="servicesbox" data-effect="helix">
-                                <div class="title">
-                                    <div class="serviceicon">
-                                        <i class="fa fa-thumbs-o-up"></i>
-                                    </div>
-                                    <h3>Testing & Delivery</h3>
-                                    <p>Duis sit amet orci et lectus dictum auctor a nec enim.</p>
-                                </div>
-                            </div><!-- end servicesboxes -->
-                        </div><!-- end col-lg-4 -->
-                        
-                    </div><!-- end row -->
-                </div><!-- end container -->
-            </div><!-- end overlay -->
-        </section><!-- end section -->
-        
-        <section class="whitewrapper nopadding clearfix">
-        	<div class="container">
-            	<div class="row">
-        			<div class="title text-center">
-                        <h1>OUR FEATURED PROJECTS</h1>
-                        <hr>
-                        <p class="lead">Showcase your  work with colorfull hover effect and seperate your works in categories</p>
-                    </div>
- 
-                    <div class="text-center clearfix">
-                        <nav class="portfolio-filter">
-                            <ul>
-                                <li><a href="#" data-filter="*"><span></span> All</a></li>
-                                <li><a class="orange" href="#" data-filter=".web-design">Web Design</a></li>
-                                <li><a class="purple" href="#" data-filter=".graphic-design">Graphic Design</a></li>
-                                <li><a class="yellow" href="#" data-filter=".photography">Photography</a></li>
-                            </ul>
-                        </nav>
-                    </div><!-- end text-center -->
-                </div><!-- end row -->
-            </div><!-- end container -->
-                               
-            <div class="masonry_wrapper clearfix">
-                <div class="item item-w2 item-h3 web-design">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a class="shadow" href="single-portfolio-1.html"><img src="demos/01_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH orange"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/01_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item item-h2 graphic-design">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/02_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH purple"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/02_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item item-h2 photography">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/03_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH yellow"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/03_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item web-design">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/04_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH orange"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/04_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item item-w2 item-h3 photography">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/05_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH yellow"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/05_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item web-design">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/06_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH orange"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/06_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item item-h2 photography">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/07_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH yellow"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/07_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item item-w2 item-h3 web-design">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/08_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH orange"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/08_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item photography">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/09_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH yellow"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/09_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item item-h2 web-design">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/10_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH orange"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/10_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item item-w2 item-h3 photography">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/11_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH orange"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/11_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item item-h2 graphic-design">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/12_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH purple"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/12_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item item-h2 photography">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/13_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH yellow"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/13_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
-                </div>
-                
-                <div class="item graphic-design">
-                    <div class="media_element ImageWrapper boxes_img">
-                        <a href="single-portfolio-1.html"><img src="demos/14_portfolio_grid.png" alt=""></a>
-                        <div class="ImageOverlayH purple"></div>
-                        <div class="Buttons StyleSc">
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="198 like" title="" href="single-portfolio-1.html"><i class="fa fa-heart"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View details" title="" href="single-portfolio-1.html"><i class="fa fa-link"></i></a></span>
-                            <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="View item" title="" rel="prettyPhoto" href="demos/14_portfolio_grid.png"><i class="fa fa-expand"></i></a></span>
-                        </div><!-- Buttons -->
-                        <div class="StyleBe"><span><i class="fa fa-picture-o"></i> Build an Amazing Website</span></div>
-                    </div><!-- media_element -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-box">
+                                <i class="hovicon effect-1 sub-a fa fa-cogs fa-3x"></i>
+                                <div class="title"><h3>Tools &amp; tips</h3></div>
+                                <p>Inzicht moet leiden tot actie. Je krijgt persoonlijke feedback waar je direct mee aan de slag kunt.</p>
+                            </div>
+                        </div>
+                                                
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-box">
+                                <i class="hovicon effect-1 sub-a fa fa-trophy fa-3x"></i>
+                                <div class="title"><h3>Groei!</h3></div>
+                                <p>Haal het maximale uit jezelf. Gebruik je profiel om je sterke punten verder uit te bouwen.</p>
+                            </div>
+                        </div>
+                    </div><!-- about_icons -->    
                 </div>
             </div>
-        </section><!-- end wrapper -->
+        </section>
 
-        <section class="whitewrapper jt-shadow clearfix">
-        	<div class="container">
-            	<div class="row text-center">
-        			<div class="title">
-                        <h1>OUR AWESOME TEAM</h1>
-                        <hr>
-                        <p class="lead">We bring you an awesomeness of design, creative skills, thoughts, and ideas</p>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    	<div class="teambox clearfix first" data-effect="slide-bottom">
-                            <div class="media_element ImageWrapper boxes_img">
-                                <a href="#"><img src="demos/01_team.png" alt=""></a>
-                                <div class="ImageOverlayH"></div>
-                                <div class="Buttons StyleSc">
-                                    <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="Follow on Facebook" title="" href="#"><i class="fa fa-facebook"></i></a></span>
-                                    <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="Follow on Twitter" title="" href="#"><i class="fa fa-twitter"></i></a></span>
-                                    <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="Follow on Google Plus" title="" href="#"><i class="fa fa-google-plus"></i></a></span>
-                                </div><!-- Buttons -->
-                            </div><!-- media_element -->
-                            <div class="title">
-                            	<h3>Jessica Motra</h3>
-                                <p class="lead">Web Designer</p>
-                            </div><!-- end title -->
-                            <p> Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae</p>
-                        </div><!-- end teambox -->
-                    </div><!-- col-lg-3 -->
-                    
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    	<div class="teambox clearfix" data-effect="slide-bottom">
-                            <div class="media_element ImageWrapper boxes_img">
-                                <a href="#"><img src="demos/02_team.png" alt=""></a>
-                                <div class="ImageOverlayH"></div>
-                                <div class="Buttons StyleSc">
-                                    <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="Follow on Facebook" title="" href="#"><i class="fa fa-facebook"></i></a></span>
-                                    <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="Follow on Twitter" title="" href="#"><i class="fa fa-twitter"></i></a></span>
-                                    <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="Follow on Google Plus" title="" href="#"><i class="fa fa-google-plus"></i></a></span>
-                                </div><!-- Buttons -->
-                            </div><!-- media_element -->
-                            <div class="title">
-                            	<h3>Robert Clave</h3>
-                                <p class="lead">Ceo & Web Developer</p>
-                            </div><!-- end title -->
-                            <p> Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae</p>
-                        </div><!-- end teambox -->
-                    </div><!-- col-lg-3 -->
-                    
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    	<div class="teambox clearfix" data-effect="slide-bottom">
-                            <div class="media_element ImageWrapper boxes_img">
-                                <a href="#"><img src="demos/03_team.png" alt=""></a>
-                                <div class="ImageOverlayH"></div>
-                                <div class="Buttons StyleSc">
-                                    <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="Follow on Facebook" title="" href="#"><i class="fa fa-facebook"></i></a></span>
-                                    <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="Follow on Twitter" title="" href="#"><i class="fa fa-twitter"></i></a></span>
-                                    <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="Follow on Google Plus" title="" href="#"><i class="fa fa-google-plus"></i></a></span>
-                                </div><!-- Buttons -->
-                            </div><!-- media_element -->
-                            <div class="title">
-                            	<h3>James Martin</h3>
-                                <p class="lead">Team Leader</p>
-                            </div><!-- end title -->
-                            <p> Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae</p>
-                        </div><!-- end teambox -->
-                    </div><!-- col-lg-3 -->
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    	<div class="teambox clearfix first" data-effect="slide-bottom">
-                            <div class="media_element ImageWrapper boxes_img">
-                                <a href="#"><img src="demos/04_team.png" alt=""></a>
-                                <div class="ImageOverlayH"></div>
-                                <div class="Buttons StyleSc">
-                                    <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="Follow on Facebook" title="" href="#"><i class="fa fa-facebook"></i></a></span>
-                                    <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="Follow on Twitter" title="" href="#"><i class="fa fa-twitter"></i></a></span>
-                                    <span class="WhiteRounded"><a data-placement="bottom" data-toggle="tooltip" data-original-title="Follow on Google Plus" title="" href="#"><i class="fa fa-google-plus"></i></a></span>
-                                </div><!-- Buttons -->
-                            </div><!-- media_element -->
-                            <div class="title">
-                            	<h3>Steve Michael</h3>
-                                <p class="lead">Senior Engineer</p>
-                            </div><!-- end title -->
-                            <p> Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae</p>
-                        </div><!-- end teambox -->
-                    </div><!-- col-lg-3 -->  
-                    
-            	</div><!-- end row -->
-            </div><!-- end container -->
-        </section><!-- end whitewrapper -->
-        
-		<section id="two-parallax" class="parallax" style="background-image: url('demos/04_parallax.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-			<div class="overlay darkwrapper paddingtop">
-        	<div class="container">
-            	<div class="row">
-        			<div class="title text-center">
-                        <h1>OUR HELPFUL SKILLS</h1>
-                        <hr>
-                        <p class="lead">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos</p>
-                    </div>
-                    
-                    <div class="skills clearfix text-center">
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        	<div class="skills_boxes">
-                            <span class="chart" data-bar-color="#21c2f8" data-percent="70">
-                                <span class="percent"></span>
-                            </span>
-                            <div class="title"><h3>Graphic Design</h3></div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
-                            </div><!-- end skills_boxes -->
-                        </div><!-- end col-lg-3 -->
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        	<div class="skills_boxes">
-                            <span class="chart" data-bar-color="#21c2f8" data-percent="60">
-                                <span class="percent"></span>
-                            </span>
-                            <div class="title"><h3>Web Development</h3></div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
-                            </div><!-- end skills_boxes -->
-                        </div><!-- end col-lg-3 -->
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        	<div class="skills_boxes">
-                            <span class="chart" data-bar-color="#21c2f8" data-percent="80">
-                                <span class="percent"></span>
-                            </span>
-                            <div class="title"><h3>Identity</h3></div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
-                            </div><!-- end skills_boxes -->
-                        </div><!-- end col-lg-3 -->
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        	<div class="skills_boxes">
-                            <span class="chart" data-bar-color="#21c2f8" data-percent="97">
-                                <span class="percent"></span>
-                            </span>
-                            <div class="title"><h3>Customer Support</h3></div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
-                            </div><!-- end skills_boxes -->
-                        </div><!-- end col-lg-3 -->
-                    </div><!-- skills -->
-            	</div><!-- end row -->
-            </div><!-- end container -->
-            </div>
-        </section><!-- end darkwrapper -->
-        
-        <section class="whitewrapper clearfix">
-        	<div class="container">
-            	<div class="row">
-        			<div class="title text-center">
-                        <h1>LATEST NEWS</h1>
-                        <hr>
-                        <p class="lead">Mirum est notare quam littera gothica, quam nunc putamus parum claram</p>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    	<div class="blog_wrap" data-effect="slide-bottom">
-                            <div class="title">
-                                <div class="post_date">
-                                    <i class="fa fa-picture-o"></i>
-                                </div>
-                                <h3><a href="single-blog-sidebar.html" title="">Popular people who like everyone love</a></h3>
-                                <div class="post_meta">
-                                    <span><i class="fa fa-calendar"></i> 20 Dec 14</span>
-                                    <span><i class="fa fa-user"></i> <a href="#">John</a></span>
-                                    <span><i class="fa fa-tag"></i> <a href="#">Love</a>, <a href="#">Wedding</a>, <a href="#">Photography</a></span>
-                                    <span><i class="fa fa-comment"></i> <a href="#">2 Comment</a></span>
-                                </div><!-- end post-meta -->
-                            </div><!-- end title -->
-                            <div class="media_element ImageWrapper boxes_img">
-                                <a href="#"><img src="demos/01_blog.png" alt=""></a>
-                                <div class="ImageOverlayH"></div>
-                                <div class="Buttons StyleBe1">
-									<span class="WhiteRounded"><a title="Read this article..." href="single-blog-sidebar.html"><i class="fa fa-link"></i></a></span>
-                                </div><!-- Buttons -->
-                            </div><!-- media_element -->
-                            <div class="post_desc">
-                            	<p>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                            </div>
-                        </div><!-- end blog-wrap -->
-                    </div><!-- end col-lg-6 -->
-
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    	<div class="blog_wrap" data-effect="slide-bottom">
-                            <div class="title">
-                                <div class="post_date">
-                                    <i class="fa fa-picture-o"></i>
-                                </div>
-                                <h3><a href="single-blog-sidebar.html" title="">This is our office, do you like?</a></h3>
-                                <div class="post_meta">
-                                    <span><i class="fa fa-calendar"></i> 20 Dec 14</span>
-                                    <span><i class="fa fa-user"></i> <a href="#">John</a></span>
-                                    <span><i class="fa fa-tag"></i> <a href="#">Love</a>, <a href="#">Wedding</a>, <a href="#">Photography</a></span>
-                                    <span><i class="fa fa-comment"></i> <a href="#">2 Comment</a></span>
-                                </div><!-- end post-meta -->
-                            </div><!-- end title -->
-                            <div class="media_element ImageWrapper boxes_img">
-                                <a href="#"><img src="demos/03_blog.png" alt=""></a>
-                                <div class="ImageOverlayH"></div>
-                                <div class="Buttons StyleBe1">
-									<span class="WhiteRounded"><a title="Read this article..." href="single-blog-sidebar.html"><i class="fa fa-link"></i></a></span>
-                                </div><!-- Buttons -->
-                            </div><!-- media_element -->
-                            <div class="post_desc">
-                            	<p>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                            </div>
-                        </div><!-- end blog-wrap -->
-                    </div><!-- end col-lg-6 -->    
-            	</div><!-- end row -->
-            </div><!-- end container -->
-        </section><!-- end whitewrapper --> 
-                
         <section class="whitewrapper bordertop clearfix">
         	<div class="container">
             	<div class="row">
         			<div class="title text-center">
-                        <h1>WHAT OUR CLIENT SAY</h1>
+                        <h1>Zij zijn al gegroeid</h1>
                         <hr>
-                        <p class="lead">Mirum est notare quam littera gothica, quam nunc putamus parum claram</p>
+                        <p class="lead">Wij beseffen: je DNA afstaan is wat ongebruikelijk. Maar de uitkomsten zijn verbluffend.
+Eerdere deelnemers vertellen je graag over hun ervaringen.</p>
                     </div>
                     
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     	<div class="testimonial_wrap">
                             <div class="testimonial_details" data-effect="slide-left">
                             	<img class="img-circle alignleft" src="demos/01_team.png" alt="">
-                           		<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam.</p>
+                           		<p>"De uitslag van mijn InsightYou Sales profiel blijft me positief ‘achtervolgen’. Telkens als ik een gesprek voer met een klant zie ik mijn profiel terug in mijn handelen. Mijn ‘biologische kracht’ benut ik in mijn salesgesprekken en gebruik ik om mijn collega’s aan te vullen en te ondersteunen. Voor de punten waar ik onder de benchmark scoor roep ik actief hulp in. Mooi zou zijn om dit voor een salesteam te doen, zodat je optimaal van elkaar ‘gebruik’ kunt maken."</p>
                                 <div class="testimonial_meta clearfix">
                                     <div class="pull-left">
-                                        <p><span>Jenny Doe</span> - Web Designer</p>
+                                        <p><span>Wouter Glas</span> - Accountmanager</p>
                                     </div>	
                                     <div class="pull-right">
                                         <div class="rating text-center">
@@ -906,10 +361,10 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                     	<div class="testimonial_wrap" data-effect="slide-right">
                             <div class="testimonial_details">
                             	<img class="img-circle alignleft" src="demos/02_team.png" alt="">
-                           		<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam.</p>
+                           		<p>"Het InsightYou Sales profiel heeft mij kennis laten maken met mijzelf. Ik kan mijn natuurlijke talenten nu effectief uitbouwen. Doen waar je goed in bent ervaar ik als plezier en energie gevend i.p.v. energie eisend. De “zwakke” punten in mijn profiel waren confronterend. Als sales professional ben je competitief en wil je de beste zijn. Hier nu bewust aan kunnen werken geeft mij zelfcontrole: ik weet immers waar mijn gedrag of acties vandaan komen."</p>
                                 <div class="testimonial_meta clearfix">
                                     <div class="pull-left">
-                                        <p><span>John Doe</span> - Web Designer</p>
+                                        <p><span>Tim de Vries</span> - Salesmanager</p>
                                     </div>	
                                     <div class="pull-right">
                                         <div class="rating text-center">
