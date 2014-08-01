@@ -35,8 +35,9 @@
     <link rel="apple-touch-icon" sizes="144x144" href="assets/ico/apple-touch-icon-144x144.png">
 
 </head>
+
 <body data-spy="scroll" data-offset="75">
-<div class="animationload"><div id="intro"></div></div>
+    <div class="animationload"><div id="intro"></div></div>
 
     <div class="wrapper">
 
@@ -46,12 +47,12 @@
         
         <section class="sliderwrapper clearfix">
             <div class="tp-banner-container">
-                <div class="tp-banner" >
+                <div id="top-banner" class="tp-banner" >
                     <ul>
                    		<!-- SLIDE  -->
                         <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
                             <!-- MAIN IMAGE -->
-                            <img src="slider-images/07_bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                            <img src="slider-images/07_man.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
         
                             <!-- LAYER NR. 2 -->
@@ -282,56 +283,41 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                     <div class="tp-bannertimer"></div>
                 </div>
 			</div>       
-        </section><!-- end slider-wrapper -->  
-        
-        <section class="whitewrapper bordertop clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="about_icons text-center">
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="service-box">
-                                <i class="hovicon effect-1 sub-a fa fa-lock fa-3x"></i>
-                                <div class="title"><h3>Privacy voorop</h3></div>
-                                <p>Jouw profiel is voor jou alleen. Het is daarna aan jou of je de inzichten met anderen wilt delen.</p>
-                            </div>
-                        </div>
-                    
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="service-box">
-                                <i class="hovicon effect-1 sub-a fa fa-bar-chart-o fa-3x"></i>
-                                <div class="title"><h3>Inzicht in jezelf</h3></div>
-                                <p>Om te kunnen groeien moet je weten waar je nu staat. Wij brengen jouw commerciële drives in kaart.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="service-box">
-                                <i class="hovicon effect-1 sub-a fa fa-cogs fa-3x"></i>
-                                <div class="title"><h3>Tools &amp; tips</h3></div>
-                                <p>Inzicht moet leiden tot actie. Je krijgt persoonlijke feedback waar je direct mee aan de slag kunt.</p>
-                            </div>
-                        </div>
-                                                
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="service-box">
-                                <i class="hovicon effect-1 sub-a fa fa-trophy fa-3x"></i>
-                                <div class="title"><h3>Groei!</h3></div>
-                                <p>Haal het maximale uit jezelf. Gebruik je profiel om je sterke punten verder uit te bouwen.</p>
-                            </div>
-                        </div>
-                    </div><!-- about_icons -->    
-                </div>
-            </div>
-        </section>
+        </section><!-- end slider-wrapper -->
 
+        <div id="video-parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+            <div class="overlay paddingtop">
+                <div class="container">
+                    <div class="row">
+                        <div class="messagebox1 text-center clearfix">
+                            <h1>Wij geven je inzicht in jouw biologische identiteit zodat je kunt excelleren in de rol die van nature bij je past.</h1>                  
+                            <form class="form-inline" role="form">
+                              <div class="form-group">
+                                <label class="sr-only" for="exampleInputEmail2">Naam</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Naam">
+                              </div>
+                              <div class="form-group">
+                                <label class="sr-only" for="exampleInputEmail2">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
+                              </div>
+                              <div class="form-group">
+                                <label class="sr-only" for="exampleInputEmail2">Telefoonnummer</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Telefoonnummer">
+                              </div>
+                              <button type="submit" class="btn btn-primary">Vertel mij meer</button>
+                            </form>
+                        </div><!-- end paddingtop -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end overlay -->
+        </div><!-- end whitewrapper -->  
+        
         <section class="whitewrapper bordertop clearfix">
         	<div class="container">
             	<div class="row">
         			<div class="title text-center">
-                        <h1>Zij zijn al gegroeid</h1>
+                        <h1>Zij zijn al geholpen door de inzichten van InsightYou</h1>
                         <hr>
-                        <p class="lead">Wij beseffen: je DNA afstaan is wat ongebruikelijk. Maar de uitkomsten zijn verbluffend.
-Eerdere deelnemers vertellen je graag over hun ervaringen.</p>
                     </div>
                     
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -420,6 +406,218 @@ Eerdere deelnemers vertellen je graag over hun ervaringen.</p>
             	</div><!-- end row -->
             </div><!-- end container -->
         </section><!-- end whitewrapper --> 
+
+        <section id="two-parallax" class="parallax" style="background-image: url('demos/02_parallax.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+         <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="paddingtop">
+                        <div class="title center-title text-center">
+                        <h1>Onze <span>Wetenschappelijke</span> Basis</h1>
+                        <hr>
+                        </div> 
+                        
+                        <div class="stat f-container">
+                            <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="milestone-counter">
+                                    <span class="stat-count highlight">268</span>
+                                    <div class="milestone-details">Onderzoeken</div>
+                                </div>
+                            </div>
+                            <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="milestone-counter">
+                                    <span class="stat-count highlight">79747</span>
+                                    <div class="milestone-details">Professionals</div>
+                                </div>
+                            </div>
+                            <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="milestone-counter">
+                                    <span class="stat-count highlight">4317</span>
+                                    <div class="milestone-details">Organisaties</div>
+                                </div>
+                            </div>
+                            <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="milestone-counter">
+                                    <span class="stat-count highlight">1553</span>
+                                    <div class="milestone-details">DNA analyses</div>
+                                </div>
+                            </div>
+                        </div><!-- stat -->
+                    
+                        </div><!-- paddingtop -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div>
+        </section><!-- end whitewrapper -->
+        
+       <section class="sliderwrapper clearfix">
+            <div class="tp-banner-container">
+                <div id="articles-carousel" class="tp-banner" >
+                    <ul>   
+                        <!-- SLIDE  -->
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption customin customout"
+                                data-x="left" data-hoffset="0"
+                                data-y="bottom" data-voffset="0"
+                                data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="700"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="500"
+                                data-endeasing="Power4.easeIn"
+                                style="z-index: 3"><img src="slider-images/07_article.jpg" alt="" width="577">
+                            </div>
+                            
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption new_title skewfromleft customout"
+                                data-x="center" data-hoffset="270"
+                                data-y="200"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="1500"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="on"
+                                style="z-index: 6">Polymorphisms of the OXTR gene explain why <br>sales professionals love to help customers
+                            </div>
+        
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption big_title skewfromright customout"
+                                data-x="center" data-hoffset="210"
+                                data-y="270"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="1700"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="on"
+                                style="z-index: 7">Willem Verbeke, Richard P. Bagozzi, <br>Wouter E. van den Berg and Aurelie Lemmens
+                            </div> 
+                             
+                            <!-- LAYER NR. 6 -->
+                            <div class="tp-caption skewfromleft customout"
+                                data-x="center" data-hoffset="38"
+                                data-y="365"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="2300"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="on"
+                                style="z-index: 6"><a href="#" class="jtbtn" title="">Lees dit artikel</a>
+                            </div> 
+                        </li>
+
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption customin customout"
+                                data-x="left" data-hoffset="0"
+                                data-y="bottom" data-voffset="0"
+                                data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="700"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="500"
+                                data-endeasing="Power4.easeIn"
+                                style="z-index: 3"><img src="slider-images/07_article.jpg" alt="" width="577">
+                            </div>
+                            
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption new_title skewfromleft customout"
+                                data-x="center" data-hoffset="270"
+                                data-y="200"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="1500"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="on"
+                                style="z-index: 6">Polymorphisms of the OXTR gene explain why <br>sales professionals love to help customers
+                            </div>
+        
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption big_title skewfromright customout"
+                                data-x="center" data-hoffset="210"
+                                data-y="270"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="1700"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="on"
+                                style="z-index: 7">Willem Verbeke, Richard P. Bagozzi, <br>Wouter E. van den Berg and Aurelie Lemmens
+                            </div> 
+                             
+                            <!-- LAYER NR. 6 -->
+                            <div class="tp-caption skewfromleft customout"
+                                data-x="center" data-hoffset="38"
+                                data-y="365"
+                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                data-speed="800"
+                                data-start="2300"
+                                data-easing="Power4.easeOut"
+                                data-endspeed="300"
+                                data-endeasing="Power1.easeIn"
+                                data-captionhidden="on"
+                                style="z-index: 6"><a href="#" class="jtbtn" title="">Lees dit artikel</a>
+                            </div> 
+                        </li>
+
+                    </ul>
+                    <div class="tp-bannertimer"></div>
+                </div>
+            </div>       
+        </section><!-- end slider-wrapper -->
+        
+        <section class="whitewrapper bordertop clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="about_icons text-center">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-box">
+                                <i class="hovicon effect-1 sub-a fa fa-lock fa-3x"></i>
+                                <div class="title"><h3>Privacy voorop</h3></div>
+                                <p>Jouw profiel is voor jou alleen. Het is daarna aan jou of je de inzichten met anderen wilt delen.</p>
+                            </div>
+                        </div>
+                    
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-box">
+                                <i class="hovicon effect-1 sub-a fa fa-bar-chart-o fa-3x"></i>
+                                <div class="title"><h3>Inzicht in jezelf</h3></div>
+                                <p>Om te kunnen groeien moet je weten waar je nu staat. Wij brengen jouw commerciële drives in kaart.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-box">
+                                <i class="hovicon effect-1 sub-a fa fa-cogs fa-3x"></i>
+                                <div class="title"><h3>Tools &amp; tips</h3></div>
+                                <p>Inzicht moet leiden tot actie. Je krijgt persoonlijke feedback waar je direct mee aan de slag kunt.</p>
+                            </div>
+                        </div>
+                                                
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-box">
+                                <i class="hovicon effect-1 sub-a fa fa-trophy fa-3x"></i>
+                                <div class="title"><h3>Groei!</h3></div>
+                                <p>Haal het maximale uit jezelf. Gebruik je profiel om je sterke punten verder uit te bouwen.</p>
+                            </div>
+                        </div>
+                    </div><!-- about_icons -->    
+                </div>
+            </div>
+        </section>
 
         <footer class="footer1 jt-shadow clearfix">
         	<div class="container">
@@ -542,7 +740,7 @@ Eerdere deelnemers vertellen je graag over hun ervaringen.</p>
 	<script type="text/javascript">
 		var revapi;
 			jQuery(document).ready(function() {
-				revapi = jQuery('.tp-banner').revolution( {
+				revapi = jQuery('#top-banner').revolution( {
 					delay:9000,
 					startwidth:1170,
 					startheight:620,
@@ -552,6 +750,20 @@ Eerdere deelnemers vertellen je graag over hun ervaringen.</p>
 			});
 		});	//ready
 	</script>
+    <script type="text/javascript">
+        var revapi;
+            jQuery(document).ready(function() {
+                revapi = jQuery('#articles-carousel').revolution( {
+                    delay:9000,
+                    startwidth:1170,
+                    startheight:620,
+                    hideThumbs:10,
+                    fullWidth:"on",
+                    forceFullWidth:"on"
+            });
+        }); //ready
+    </script>
+
 
     <!-- CAROUSEL -->    
 	<script src="js/owl.carousel.js"></script>
