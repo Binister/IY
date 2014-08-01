@@ -36,13 +36,13 @@ jQuery(document).ready(function(){
 // Fun Facts
 	function count($this){
 		var current = parseInt($this.html(), 10);
-		current = current + 1; /* Where 50 is increment */
+		current = Math.round(current + ( 0.01*$this.data('count'))); /* Where 50 is increment */
 		
 		$this.html(++current);
 			if(current > $this.data('count')){
 				$this.html($this.data('count'));
 			} else {    
-				setTimeout(function(){count($this)}, 50);
+				setTimeout(function(){count($this)}, 25);
 			}
 		}        
 		
