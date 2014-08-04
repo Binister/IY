@@ -328,15 +328,6 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                                 <div class="testimonial_meta clearfix">
                                     <div class="pull-left">
                                         <p><span>Wouter Glas</span> - Accountmanager</p>
-                                    </div>	
-                                    <div class="pull-right">
-                                        <div class="rating text-center">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div><!-- rating -->
                                     </div>	        
                                 </div><!-- testimonial_desc -->                 
                             </div><!-- end testimonial_meta -->
@@ -351,16 +342,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                                 <div class="testimonial_meta clearfix">
                                     <div class="pull-left">
                                         <p><span>Tim de Vries</span> - Salesmanager</p>
-                                    </div>	
-                                    <div class="pull-right">
-                                        <div class="rating text-center">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div><!-- rating -->
-                                    </div>	        
+                                    </div>        
                                 </div><!-- testimonial_desc -->                 
                             </div><!-- end testimonial_meta -->
                         </div><!-- end testimonial_wrap -->
@@ -623,19 +605,15 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
         	<div class="container">
             	<div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12">
-                        <p>Copyright © 2014 - PSD Designed by VicksThemes</p>
+                        <p>Copyright © 2014 - InsightYou</p>
                     </div><!-- end widget -->
                     <div class="col-lg-7 col-md-7 col-sm-12 clearfix">
                         <div class="footer-menu">
                             <ul class="menu">
                                 <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Headers</a></li>
-                                <li><a href="#">Portfolio</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#">Product</a></li>
+                                <li><a href="#">Trusted</a></li>
+                                <li><a href="#">Over ons</a></li>
                             </ul>
                         </div>
                     </div><!-- end large-6 --> 
