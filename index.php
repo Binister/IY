@@ -619,81 +619,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
             </div>
         </section>
 
-        <footer class="footer1 jt-shadow clearfix">
-        	<div class="container">
-            	<div class="row">
-          			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    	<div class="widget clearfix">
-							<img class="footerlogo" src="images/flogo.png" alt=""><br>
-                        	<p>Er zijn vele variaties van passages van Lorem Ipsum beschikbaar maar het merendeel heeft te lijden gehad van wijzigingen in een of andere vorm, door ingevoegde humor.</p>
-                        	<p>Er zijn vele variaties van passages van Lorem Ipsum beschikbaar maar het merendeel.</p>
-                        </div><!-- end widget -->
-                    </div><!-- end col-lg-3 -->
-          			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    	<div class="widget clearfix">
-                        	<div class="title">
-                            	<h3>Contact Info</h3>
-                            </div><!-- end title -->
-                            <div class="contact-widget">
-                            	<ul>
-                                	<li><i class="fa fa-map-marker"></i> 121 King Street, Melbourne Victoria United States of America, CA 90017</li>
-                                	<li><i class="fa fa-envelope-o"></i> info@yoursite.com</li>
-                                	<li><i class="fa fa-mobile-phone"></i>Phone: (1005) 5999 4446</li>
-                                </ul>
-                                <ul class="social clearfix">
-                                    <li><a data-placement="bottom" data-toggle="tooltip" data-original-title="Facebook" title="" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a data-placement="bottom" data-toggle="tooltip" data-original-title="Google Plus" title="" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a data-placement="bottom" data-toggle="tooltip" data-original-title="Twitter" title="" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a data-placement="bottom" data-toggle="tooltip" data-original-title="Youtube" title="" href="#"><i class="fa fa-youtube"></i></a></li>
-                                    <li><a data-placement="bottom" data-toggle="tooltip" data-original-title="Linkedin" title="" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a data-placement="bottom" data-toggle="tooltip" data-original-title="Dribbble" title="" href="#"><i class="fa fa-dribbble"></i></a></li>
-                                    <li><a data-placement="bottom" data-toggle="tooltip" data-original-title="Skype" title="" href="#"><i class="fa fa-skype"></i></a></li>
-                                </ul><!-- end social -->
-                            </div><!-- contact-widget -->
-                        </div><!-- end widget -->
-                    </div><!-- end col-lg-3 -->
-          			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    	<div class="widget clearfix">
-                        	<div class="title">
-                            	<h3>Recent Tweets</h3>
-                            </div><!-- end title -->
-                            <div class="twitter-widget">
-                            	<ul>
-                            		<li>
-                                    	<p>Jollyness is the best and the top HTML teamplate! It's definitely a rocking one <a href="#" title="">10 seconds ago...</a></p>
-                                    </li>
-                            		<li>
-                                    	<p>Jollyness is the best and the top HTML teamplate! It's definitely a rocking one <a href="#" title="">2 min ago...</a></p>
-                                    </li>
-                            		<li>
-                                    	<p>Jollyness is the best and the top HTML teamplate! It's definitely a rocking one <a href="#" title="">1 hourse ago...</a></p>
-                                    </li>
-                            	</ul>
-                        	</div><!-- twitter-widget -->
-                        </div><!-- end widget -->
-                    </div><!-- end col-lg-3 -->
-          			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    	<div class="widget clearfix">
-                        	<div class="title">
-                            	<h3>Drop us a line!</h3>
-                            </div><!-- end title -->
-                        	<div class="footer-form">
-                            <form id="contact" action="contact.php" name="contactform" method="post">
-                            	<input type="text" name="name" id="name" class="form-control" placeholder="Name"> 
-                            	<input type="text" name="email" id="email" class="form-control" placeholder="Email Address"> 
-                            	 <textarea class="form-control" name="message" id="message" rows="4" placeholder="Message"></textarea>
-                                 <div class="text-center">
-                                 <button type="submit" value="SEND" id="submit" class="btn btn-primary">SEND</button>
-                                 </div>
-							</form>                              
-                            </div><!-- end footer-form -->
-                        </div><!-- end widget -->
-                    </div><!-- end col-lg-3 -->
-            	</div><!-- end row -->
-            </div><!-- end container -->
-        </footer><!-- end footer --> 
-
-        <section class="copyright1 clearfix">
+        <footer class="copyright1 clearfix">
         	<div class="container">
             	<div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12">
@@ -715,7 +641,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                     </div><!-- end large-6 --> 
 				</div><!-- end row -->
             </div><!-- end container -->
-        </section><!-- end copyright1 -->
+        </footer><!-- end copyright1 -->
     </div><!-- end wrapper -->   
      
     <div class="dmtop">
