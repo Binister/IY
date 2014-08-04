@@ -289,7 +289,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
             <div class="overlay paddingtop">
                 <div class="container">
                     <div class="row">
-                        <div class="messagebox1 text-center clearfix">
+                        <div class="center-title text-center clearfix">
                             <h1>Wij geven je inzicht in jouw biologische identiteit zodat je kunt excelleren in de rol die van nature bij je past.</h1>                  
                             <form class="form-inline" role="form">
                               <div class="form-group">
