@@ -315,7 +315,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
         <section class="whitewrapper bordertop clearfix">
         	<div class="container">
             	<div class="row">
-        			<div class="title text-center">
+        			<div class="title center-title text-center">
                         <h1>Zij zijn al geholpen door de inzichten van InsightYou</h1>
                         <hr>
                     </div>
