@@ -277,7 +277,7 @@
 		background-size: cover;
 	}
 	.overlay {
-		background: url(images/gridtile.png) repeat rgba(0,0,0,0.4);
+		background: rgba(0, 96, 191, 0.5);
 		padding: 30px 0;
 	}
 	.nopadding {
@@ -3095,7 +3095,7 @@
 	.testimonial_details:hover,
 	.nav-tabs > li > a:hover,
 	.custom-box:hover .diamondicon {
-		background-color:#21C2F8;
+		background-color:rgba(64, 191, 255, 0.75);
 	}
 	
 	.bigtitle h1:after,
