@@ -987,8 +987,9 @@
 	.testimonial_wrap {
 		margin:40px 0;	
 	}
-	
+
 	.testimonial_details {
+		background: #000000;
 		padding:20px 20px 0;
 		-webkit-transition: background-color .4s linear, color .4s linear;
 		-moz-transition: background-color .4s linear, color .4s linear;
