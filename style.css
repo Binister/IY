@@ -989,7 +989,6 @@
 	}
 	
 	.testimonial_details {
-		border:1px solid #d3d3d3;
 		padding:20px 20px 0;
 		-webkit-transition: background-color .4s linear, color .4s linear;
 		-moz-transition: background-color .4s linear, color .4s linear;
