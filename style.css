@@ -277,7 +277,7 @@
 		background-size: cover;
 	}
 	.overlay {
-		background: rgba(100, 100, 100, 0.1);
+		background: rgba(28, 154, 214, 0.25);
 		padding: 30px 0;
 	}
 	.nopadding {
@@ -2552,7 +2552,6 @@
 	}
 	.highlight {
 		font-size: 72px;
-		font-family: 'NovecentowideBookBold', cursive;
 		font-weight: bold;
 		color:#ffffff;
 		line-height: 1.6;
@@ -3315,6 +3314,6 @@ acronym { border-bottom:1px dotted #ccc; }
 	font-size: 1.3em;
 }
 
-.extraTestimonial {
+#lessTestimonials, .extraTestimonial {
 	display: none;
 }

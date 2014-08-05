@@ -127,9 +127,16 @@ function parallaxInit() {
         + "</span>");
 	});
 
-	$("#testimonialButton").click(function () {
+	$("#moreTestimonials").click(function () {
 		$(".extraTestimonial").show("slow");
-		$("#testimonialButton").hide("slow");
-	})	
+		$("#lessTestimonials").show("slow");
+		$("#moreTestimonials").hide("slow");
+	});	
+
+	$("#lessTestimonials").click(function () {
+		$(".extraTestimonial").hide("slow");
+		$("#lessTestimonials").hide("slow");
+		$("#moreTestimonials").show("slow");
+	});	
 		
 })(jQuery);

@@ -342,8 +342,8 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                             </div><!-- end testimonial_meta -->
                         </div><!-- end testimonial_wrap -->
                     </div><!-- end col-lg-6 -->
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                              <button class="btn btn-primary" id="testimonialButton">Toon meer klantervaringen</button>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="moreTestimonials">
+                              <button class="btn btn-primary aligncenter">Meer klantervaringen</button>
                     </div>    
                     
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 extraTestimonial">
@@ -359,6 +359,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                             </div><!-- end testimonial_meta -->
                         </div><!-- end testimonial_wrap -->
                     </div><!-- end col-lg-6 -->
+
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 extraTestimonial">
                         <div class="testimonial_wrap">
                             <div class="testimonial_details">
@@ -372,7 +373,39 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                             </div><!-- end testimonial_meta -->
                         </div><!-- end testimonial_wrap -->
                     </div><!-- end col-lg-6 -->
-                    
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 extraTestimonial">
+                        <div class="testimonial_wrap">
+                            <div class="testimonial_details">
+                                <img class="img-circle alignleft" src="demos/02_team.png" alt="">
+                                <p>"Het InsightYou Sales profiel heeft mij kennis laten maken met mijzelf. Ik kan mijn natuurlijke talenten nu effectief uitbouwen. Doen waar je goed in bent ervaar ik als plezier en energie gevend i.p.v. energie eisend. De “zwakke” punten in mijn profiel waren confronterend. Als sales professional ben je competitief en wil je de beste zijn. Hier nu bewust aan kunnen werken geeft mij zelfcontrole: ik weet immers waar mijn gedrag of acties vandaan komen."</p>
+                                <div class="testimonial_meta clearfix">
+                                    <div class="pull-left">
+                                        <p><span>Tim de Vries</span> - Salesmanager</p>
+                                    </div>        
+                                </div><!-- testimonial_desc -->                 
+                            </div><!-- end testimonial_meta -->
+                        </div><!-- end testimonial_wrap -->
+                    </div><!-- end col-lg-6 -->
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 extraTestimonial">
+                        <div class="testimonial_wrap">
+                            <div class="testimonial_details">
+                                <img class="img-circle alignleft" src="demos/02_team.png" alt="">
+                                <p>"Het InsightYou Sales profiel heeft mij kennis laten maken met mijzelf. Ik kan mijn natuurlijke talenten nu effectief uitbouwen. Doen waar je goed in bent ervaar ik als plezier en energie gevend i.p.v. energie eisend. De “zwakke” punten in mijn profiel waren confronterend. Als sales professional ben je competitief en wil je de beste zijn. Hier nu bewust aan kunnen werken geeft mij zelfcontrole: ik weet immers waar mijn gedrag of acties vandaan komen."</p>
+                                <div class="testimonial_meta clearfix">
+                                    <div class="pull-left">
+                                        <p><span>Tim de Vries</span> - Salesmanager</p>
+                                    </div>        
+                                </div><!-- testimonial_desc -->                 
+                            </div><!-- end testimonial_meta -->
+                        </div><!-- end testimonial_wrap -->
+                    </div><!-- end col-lg-6 -->
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="lessTestimonials">
+                              <button class="btn btn-primary aligncenter">Minder klantervaringen</button>
+                    </div>
+
                     <div class="clearfix"></div>
                                         
                     <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
@@ -414,11 +447,10 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
             </div><!-- end container -->
         </section><!-- end whitewrapper --> 
 
-        <section id="two-parallax" class="parallax" style="background-image: url('demos/02_parallax.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-         <div class="overlay">
+        <div id="video-parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+            <div class="overlay paddingtop">
                 <div class="container">
                     <div class="row">
-                        <div class="paddingtop">
                         <div class="title center-title text-center">
                         <h1>Onze wetenschappelijke basis.</h1>
                         </div> 
@@ -450,11 +482,10 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                             </div>
                         </div><!-- stat -->
                     
-                        </div><!-- paddingtop -->
                     </div><!-- end row -->
                 </div><!-- end container -->
             </div>
-        </section><!-- end whitewrapper -->
+        </div><!-- end whitewrapper -->
         
        <section class="sliderwrapper clearfix">
             <div class="tp-banner-container">
