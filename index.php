@@ -300,10 +300,6 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                                 <label class="sr-only" for="exampleInputEmail2">Telefoonnummer / Email</label>
                                 <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Telefoonnummer / Email">
                               </div>
-                              <div class="form-group">
-                                <label class="sr-only" for="exampleInputEmail2">Telefoonnummer</label>
-                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Telefoonnummer">
-                              </div>
                               <button type="submit" class="btn btn-primary">Vertel mij meer</button>
                             </form>
                         </div><!-- end paddingtop -->
@@ -316,7 +312,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
         	<div class="container">
             	<div class="row">
         			<div class="title center-title text-center">
-                        <h1>Zij zijn al geholpen door de inzichten van InsightYou</h1>
+                        <h1>Zij zijn al geholpen door de inzichten van InsightYou.</h1>
                     </div>
                     
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -394,7 +390,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                     <div class="row">
                         <div class="paddingtop">
                         <div class="title center-title text-center">
-                        <h1>Onze <span>Wetenschappelijke</span> Basis</h1>
+                        <h1>Onze wetenschappelijke basis.</h1>
                         <hr>
                         </div> 
                         
