@@ -66,7 +66,7 @@
                                 data-easing="Power4.easeOut"
                                 data-endspeed="500"
                                 data-endeasing="Power4.easeIn"
-                                style="z-index: 3"><img src="images/logoiy.png" alt="">
+                                style="z-index: 3"><img src="images/logo.png" alt="">
                             </div>
                             
                             <!-- LAYER NR. 3 -->
@@ -390,8 +390,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                     <div class="row">
                         <div class="paddingtop">
                         <div class="title center-title text-center">
-                        <h1>Onze Wetenschappelijke Basis.</h1>
-                        <hr>
+                        <h1>Onze wetenschappelijke basis.</h1>
                         </div> 
                         
                         <div class="stat f-container">
