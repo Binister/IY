@@ -395,7 +395,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                     <div class="row">
                         <div class="paddingtop">
                         <div class="title center-title text-center">
-                        <h1>Onze <span>Wetenschappelijke</span> Basis</h1>
+                        <h1>Onze Wetenschappelijke Basis.</h1>
                         <hr>
                         </div> 
                         

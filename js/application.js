@@ -1,3 +1,13 @@
+// Custom InsightYou
+$('.center-title h1').each(function() {
+    $(this).html(
+        $(this).html().substr(0, $(this).html().length-1)
+        + "<span>"
+        + $(this).html().substr(-1)
+        + "</span>");
+});
+
+
 (function($) {
  "use strict"
  
