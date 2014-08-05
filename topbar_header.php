@@ -1,7 +1,4 @@
-<div class="animationload"><div id="intro"></div></div>
-
-    <div class="wrapper">
-        <section class="topbar clearfix">
+    <section class="topbar clearfix">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -55,4 +52,4 @@
                     </div><!-- end col-lg-8 -->  
 				</div><!-- end row -->
 			</div><!-- end container -->
-</header><!-- end header -->
+        </header><!-- end header -->
