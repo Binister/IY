@@ -1613,7 +1613,7 @@
 		background-color:#e2e41f !important;
 	}	
 	.portfolio-filter li a.blue:before {
-		background-color:#21c2f8 !important;
+		background-color:#1C9AD6 !important;
 	}	
 	.portfolio-filter li a:before {
 		background:#111111;
@@ -3045,7 +3045,7 @@
 	.footer-social li i,
 	.custom-box .diamondicon i,
 	a {
-		color:#21C2F8;
+		color:#1C9AD6;
 	}
 	
 	div.bbp-template-notice, div.indicator-hint,
@@ -3096,7 +3096,7 @@
 	.testimonial_details:hover,
 	.nav-tabs > li > a:hover,
 	.custom-box:hover .diamondicon {
-		background-color:rgba(28, 154, 214, 0.75);
+		background-color:rgba(28, 154, 214, 1);
 	}
 	
 	.bigtitle h1:after,
@@ -3123,7 +3123,7 @@
 	.tp-bullets.simplebullets .bullet:hover,
 	.tp-bullets.simplebullets .bullet.selected,
 	.btn-primary {
-		border-color:#21C2F8;
+		border-color:#1C9AD6;
 	}
 
 	.miniicon:after,
@@ -3136,11 +3136,11 @@
 	.navbar-default .navbar-nav > .active > a:focus:after,
 	.navbar-nav > li > a:focus:after,
 	.navbar-nav > li > a:hover:after {
-		border-top-color: #21C2F8;
+		border-top-color: #1C9AD6;
 	}
 
 	.dmtop {
-		background-color:#21C2F8 !important;
+		background-color:#EC008C !important;
 	}
 	
 	#onepage .tp-bannertimer{
@@ -3148,25 +3148,26 @@
 	}
 	
 	.jtbtn-big2 {
-		color:#21C2F8 !important;
+		color:#1C9AD6 !important;
 	}
 		
 	.miniicon:before {
-		border-bottom-color:#21C2F8;
+		border-bottom-color:#1C9AD6;
 	}
 	
 	.hovicon.effect-1:after {
-		box-shadow: 0 0 0 4px #21C2F8;
+		box-shadow: 0 0 0 4px #1C9AD6;
 	}
 
 	.jtbtn-big {
-	  border:1px solid #21C2F8;
+	  border:1px solid #1C9AD6;
 	}
 	
 	.btn-primary:hover,
 	.btn-primary:focus,
 	.btn-primary:active {
-		background-color:#11B2E8;
+		background-color:#EC008C;
+		border-color: #EC008C;
 	}		
 	.mmodebody {
 		overflow: hidden;
