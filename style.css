@@ -3303,3 +3303,12 @@
 #contactform #success_page h1 { background: url(images/success.gif) left no-repeat; padding-left:22px; }
 
 acronym { border-bottom:1px dotted #ccc; }
+
+/*	################################################################
+	15. INSIGHTYOU STYLES
+################################################################# */
+
+.center-title h1 span {
+	color: #FF00FF;
+	font-size: 1.5em;
+}

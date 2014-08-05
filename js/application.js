@@ -118,5 +118,13 @@ function parallaxInit() {
 			jQuery('html, body').animate({scrollTop: '0px'}, 800);
 			return false;
 	});
+
+	$('.center-title h1').each(function() {
+    $(this).html(
+        $(this).html().substr(0, $(this).html().length-1)
+        + "<span>"
+        + $(this).html().substr(-1)
+        + "</span>");
+	});	
 		
 })(jQuery);
