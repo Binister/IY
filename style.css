@@ -27,7 +27,8 @@
 ################################################################# */
 
 .center-title h1 span {
-	color: #FF00FF; 
+	color: #FF00FF;
+	font-size: 1.5em; 
 }
 
 /*	################################################################
@@ -332,14 +333,15 @@
 		line-height: 20px;
 	}
 	.whitewrapper .center-title h1 {
-		color: #292723;
+		color: #0060BF;
+		font-weight: 400;
 	}
 	.center-title h1 {
 		font-size:36px;
 		line-height:36px;
 		font-weight:200;
 		font-family: Calibri, Helvetica, sans-serif;
-		color:#000000
+		color:#FFFFFF;
 		text-decoration:none;
 		padding:10px;
 		border-width:0px;
