@@ -1,3 +1,13 @@
+// Custom InsightYou
+$('.center-title h1').each(function() {
+    $(this).html(
+        $(this).html().substr(0, $(this).html().length-1)
+        + "<span>"
+        + $(this).html().substr(-1)
+        + "</span>");
+});
+
+
 (function($) {
  "use strict"
  
@@ -36,13 +46,13 @@ jQuery(document).ready(function(){
 // Fun Facts
 	function count($this){
 		var current = parseInt($this.html(), 10);
-		current = current + 1; /* Where 50 is increment */
+		current = Math.round(current + ( 0.005*$this.data('count'))); /* Where 50 is increment */
 		
 		$this.html(++current);
 			if(current > $this.data('count')){
 				$this.html($this.data('count'));
 			} else {    
-				setTimeout(function(){count($this)}, 50);
+				setTimeout(function(){count($this)}, 10);
 			}
 		}        
 		

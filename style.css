@@ -21,6 +21,16 @@
 	
 ################################################################# */ 
 
+
+/*	################################################################
+	0. CUSTOM INSIGHTYOU
+################################################################# */
+
+.center-title h1 span {
+	color: #FF00FF;
+	font-size: 1.5em; 
+}
+
 /*	################################################################
 	1. IMPORT FILES
 ################################################################# */
@@ -277,7 +287,7 @@
 		background-size: cover;
 	}
 	.overlay {
-		background: url(images/gridtile.png) repeat rgba(0,0,0,0.4);
+		background: rgba(0, 96, 191, 0.5);
 		padding: 30px 0;
 	}
 	.nopadding {
@@ -323,14 +333,15 @@
 		line-height: 20px;
 	}
 	.whitewrapper .center-title h1 {
-		color:#292723;
+		color: #0060BF;
+		font-weight: 600;
 	}
 	.center-title h1 {
 		font-size:36px;
 		line-height:36px;
-		font-weight:400;
-		font-family: 'Pacifico', cursive;
-		color:#ffffff;
+		font-weight:600;
+		font-family: Calibri, Helvetica, sans-serif;
+		color:#FFFFFF;
 		text-decoration:none;
 		padding:10px;
 		border-width:0px;
@@ -987,9 +998,9 @@
 	.testimonial_wrap {
 		margin:40px 0;	
 	}
-	
+
 	.testimonial_details {
-		border:1px solid #d3d3d3;
+		background: #ffffff;
 		padding:20px 20px 0;
 		-webkit-transition: background-color .4s linear, color .4s linear;
 		-moz-transition: background-color .4s linear, color .4s linear;
@@ -2561,7 +2572,7 @@
 		color:#ffffff;
 		font-weight: 400;
 		padding: 0 0 20px;
-		font-family: 'Nothing You Could Do', cursive;
+		font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 		font-weight: normal;
 	}
 	.f-element{
@@ -3095,7 +3106,7 @@
 	.testimonial_details:hover,
 	.nav-tabs > li > a:hover,
 	.custom-box:hover .diamondicon {
-		background-color:#21C2F8;
+		background-color:rgba(64, 191, 255, 0.75);
 	}
 	
 	.bigtitle h1:after,
