@@ -331,7 +331,7 @@
 		line-height:36px;
 		font-weight:600;
 		font-family: Calibri, Helvetica, sans-serif;
-		color:#000000
+		color:#FFFFFF;
 		text-decoration:none;
 		padding:10px;
 		border-width:0px;
@@ -3311,5 +3311,5 @@ acronym { border-bottom:1px dotted #ccc; }
 
 .center-title h1 span {
 	color: #FF00FF;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
