@@ -290,19 +290,15 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                 <div class="container">
                     <div class="row">
                         <div class="center-title text-center clearfix">
-                            <h1>Wij geven je inzicht in jouw biologische identiteit zodat je kunt excelleren in de rol die van nature bij je past.</h1>                  
+                            <h1>Wij geven je inzicht in jouw biologische identiteit zodat je kunt excelleren in de professionele rol die van nature bij je past.</h1>                  
                             <form class="form-inline" role="form">
                               <div class="form-group">
                                 <label class="sr-only" for="exampleInputEmail2">Naam</label>
                                 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Naam">
                               </div>
                               <div class="form-group">
-                                <label class="sr-only" for="exampleInputEmail2">Email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
-                              </div>
-                              <div class="form-group">
-                                <label class="sr-only" for="exampleInputEmail2">Telefoonnummer</label>
-                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Telefoonnummer">
+                                <label class="sr-only" for="exampleInputEmail2">Telefoonnummer / Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Telefoonnummer / Email">
                               </div>
                               <button type="submit" class="btn btn-primary">Vertel mij meer</button>
                             </form>
@@ -316,8 +312,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
         	<div class="container">
             	<div class="row">
         			<div class="title center-title text-center">
-                        <h1>Zij zijn al geholpen door de inzichten van InsightYou</h1>
-                        <hr>
+                        <h1>Zij zijn al geholpen door de inzichten van InsightYou.</h1>
                     </div>
                     
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
