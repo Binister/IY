@@ -277,7 +277,7 @@
 		background-size: cover;
 	}
 	.overlay {
-		background: rgba(0, 96, 191, 0.5);
+		background: rgba(100, 100, 100, 0.1);
 		padding: 30px 0;
 	}
 	.nopadding {
@@ -323,7 +323,7 @@
 		line-height: 20px;
 	}
 	.whitewrapper .center-title h1 {
-		color:#0060BF;
+		color:#005A96;
 		font-weight: 600;
 	}
 	.center-title h1 {
@@ -2896,6 +2896,7 @@
 		-ms-transition: all .7s ease-in-out;
 		transition: all .7s ease-in-out;
 		overflow: auto;
+		border-radius: 50%;
 	}
 	.dmtop:hover {
 		background-color:#111111 !important;
@@ -3096,7 +3097,7 @@
 	.testimonial_details:hover,
 	.nav-tabs > li > a:hover,
 	.custom-box:hover .diamondicon {
-		background-color:rgba(64, 191, 255, 0.75);
+		background-color:rgba(28, 154, 214, 0.75);
 	}
 	
 	.bigtitle h1:after,
@@ -3310,6 +3311,10 @@ acronym { border-bottom:1px dotted #ccc; }
 ################################################################# */
 
 .center-title h1 span {
-	color: #FF00FF;
+	color: #EC008C;
 	font-size: 1.3em;
+}
+
+.extraTestimonial {
+	display: none;
 }

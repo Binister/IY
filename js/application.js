@@ -125,6 +125,11 @@ function parallaxInit() {
         + "<span>"
         + $(this).html().substr(-1)
         + "</span>");
-	});	
+	});
+
+	$("#testimonialButton").click(function () {
+		$(".extraTestimonial").show("slow");
+		$("#testimonialButton").hide("slow");
+	})	
 		
 })(jQuery);
