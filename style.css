@@ -21,16 +21,6 @@
 	
 ################################################################# */ 
 
-
-/*	################################################################
-	0. CUSTOM INSIGHTYOU
-################################################################# */
-
-.center-title h1 span {
-	color: #FF00FF;
-	font-size: 1.5em; 
-}
-
 /*	################################################################
 	1. IMPORT FILES
 ################################################################# */
@@ -333,15 +323,14 @@
 		line-height: 20px;
 	}
 	.whitewrapper .center-title h1 {
-		color: #0060BF;
-		font-weight: 400;
+		color:#292723;
 	}
 	.center-title h1 {
 		font-size:36px;
 		line-height:36px;
 		font-weight:200;
 		font-family: Calibri, Helvetica, sans-serif;
-		color:#FFFFFF;
+		color:#000000
 		text-decoration:none;
 		padding:10px;
 		border-width:0px;
