@@ -308,7 +308,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
             </div><!-- end overlay -->
         </div><!-- end whitewrapper -->  
         
-        <section class="whitewrapper bordertop clearfix">
+        <section class="whitewrapper bordertop clearfix" id="anchTest">
         	<div class="container">
             	<div class="row">
         			<div class="title center-title text-center">
@@ -407,7 +407,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                     </div><!-- end col-lg-6 -->
 
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="lessTestimonials">
-                              <button class="btn btn-primary aligncenter">Minder klantervaringen</button>
+                              <a href="#anchTest"><button class="btn btn-primary aligncenter">Minder klantervaringen</button></a>
                     </div>
 
                     <div class="clearfix"></div>
@@ -514,7 +514,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                             
                             <!-- LAYER NR. 3 -->
                             <div class="tp-caption new_title skewfromleft customout"
-                                data-x="center" data-hoffset="270"
+                                data-x="585"
                                 data-y="200"
                                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                                 data-speed="800"
@@ -528,7 +528,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
         
                             <!-- LAYER NR. 4 -->
                             <div class="tp-caption big_title skewfromright customout"
-                                data-x="center" data-hoffset="210"
+                                data-x="585"
                                 data-y="270"
                                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                                 data-speed="800"
@@ -542,7 +542,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                              
                             <!-- LAYER NR. 6 -->
                             <div class="tp-caption skewfromleft customout"
-                                data-x="center" data-hoffset="38"
+                                data-x="585" 
                                 data-y="365"
                                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                                 data-speed="800"
@@ -554,66 +554,6 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                                 style="z-index: 6"><a href="#" class="jtbtn" title="">Lees dit artikel</a>
                             </div> 
                         </li>
-
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
-
-                            <!-- LAYER NR. 2 -->
-                            <div class="tp-caption customin customout"
-                                data-x="left" data-hoffset="0"
-                                data-y="bottom" data-voffset="0"
-                                data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
-                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                                data-speed="800"
-                                data-start="700"
-                                data-easing="Power4.easeOut"
-                                data-endspeed="500"
-                                data-endeasing="Power4.easeIn"
-                                style="z-index: 3"><img src="slider-images/07_article.jpg" alt="" width="577">
-                            </div>
-                            
-                            <!-- LAYER NR. 3 -->
-                            <div class="tp-caption new_title skewfromleft customout"
-                                data-x="center" data-hoffset="270"
-                                data-y="200"
-                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                                data-speed="800"
-                                data-start="1500"
-                                data-easing="Power4.easeOut"
-                                data-endspeed="300"
-                                data-endeasing="Power1.easeIn"
-                                data-captionhidden="on"
-                                style="z-index: 6">Polymorphisms of the OXTR gene explain why <br>sales professionals love to help customers
-                            </div>
-        
-                            <!-- LAYER NR. 4 -->
-                            <div class="tp-caption big_title skewfromright customout"
-                                data-x="center" data-hoffset="210"
-                                data-y="270"
-                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                                data-speed="800"
-                                data-start="1700"
-                                data-easing="Power4.easeOut"
-                                data-endspeed="300"
-                                data-endeasing="Power1.easeIn"
-                                data-captionhidden="on"
-                                style="z-index: 7">Willem Verbeke, Richard P. Bagozzi, <br>Wouter E. van den Berg and Aurelie Lemmens
-                            </div> 
-                             
-                            <!-- LAYER NR. 6 -->
-                            <div class="tp-caption skewfromleft customout"
-                                data-x="center" data-hoffset="38"
-                                data-y="365"
-                                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                                data-speed="800"
-                                data-start="2300"
-                                data-easing="Power4.easeOut"
-                                data-endspeed="300"
-                                data-endeasing="Power1.easeIn"
-                                data-captionhidden="on"
-                                style="z-index: 6"><a href="#" class="jtbtn" title="">Lees dit artikel</a>
-                            </div> 
-                        </li>
-
                     </ul>
                     <div class="tp-bannertimer"></div>
                 </div>
