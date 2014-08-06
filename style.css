@@ -2894,7 +2894,7 @@
 		border-radius: 50%;
 	}
 	.dmtop:hover {
-		background-color:#111111 !important;
+		background-color:rgba(236, 0, 140, 1) !important;
 	}
 	#video-parallax {
 		position:relative;
@@ -3136,7 +3136,7 @@
 	}
 
 	.dmtop {
-		background-color:#EC008C !important;
+		background-color:rgba(236, 0, 140, 0.25) !important;
 	}
 	
 	#onepage .tp-bannertimer{
@@ -3162,8 +3162,8 @@
 	.btn-primary:hover,
 	.btn-primary:focus,
 	.btn-primary:active {
-		background-color:#EC008C;
-		border-color: #EC008C;
+		background-color:rgba(255, 148, 0, .75);
+		border-color: rgba(255, 148, 0, .75);
 	}		
 	.mmodebody {
 		overflow: hidden;
@@ -3314,3 +3314,14 @@ acronym { border-bottom:1px dotted #ccc; }
 #lessTestimonials, .extraTestimonial {
 	display: none;
 }
+
+.btn-primary {
+	background-color: rgba(255, 148, 0, .9);
+	border-color: rgba(255, 148, 0, 0.9);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+		background-color: rgba(255, 148, 0, 1);
+	}
