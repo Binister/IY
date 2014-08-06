@@ -448,15 +448,12 @@
 		line-height: 40px;
 		text-align:center;
 		list-style:none;
-		border-left:1px solid #f2f2f2;
 		display: inline-block;
 		margin: 0;
 		position: relative;
 		padding:0;
 	}
-	.callus li:last-child,
-	.social li:last-child {
-		border-right:1px solid #f2f2f2;
+	
 	}
 	.social li a {
 		font-size:14px
