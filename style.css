@@ -277,7 +277,7 @@
 		background-size: cover;
 	}
 	.overlay {
-		background: rgba(28, 154, 214, 0.25);
+		background: rgba(28, 154, 214, 1);
 		padding: 30px 0;
 	}
 	.nopadding {
@@ -3045,7 +3045,7 @@
 	.footer-social li i,
 	.custom-box .diamondicon i,
 	a {
-		color:#1C9AD6;
+		color:rgba(0, 90, 150, 1);
 	}
 	
 	div.bbp-template-notice, div.indicator-hint,
