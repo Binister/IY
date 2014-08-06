@@ -453,14 +453,13 @@
 		position: relative;
 		padding:0;
 	}
-	
+
 	}
 	.social li a {
 		font-size:14px
 	}
 	.callus li {
 		list-style:none;
-		border-left:1px solid #f2f2f2;
 		float:left;
 		text-align:center;
 		padding:0 10px;
