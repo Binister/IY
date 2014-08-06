@@ -449,7 +449,7 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
 
         <div id="video-parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
             <div class="overlay paddingtop">
-                <div class="container">
+                <div class="container" id="counter">
                     <div class="row">
                         <div class="title center-title text-center">
                         <h1>Onze wetenschappelijke basis.</h1>
@@ -691,7 +691,9 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
 	<script src="js/retina-1.1.0.js"></script>
 	<script src="js/fhmm.js"></script>
 	<script src="js/jquery.prettyPhoto.js"></script>
-	<script src="js/application.js"></script>
+    <script src="js/waypoints.min.js"></script> 
+    <script src="js/application.js"></script>
+   
 
     <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
     <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>

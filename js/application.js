@@ -46,11 +46,15 @@ jQuery(document).ready(function(){
 			}
 		}        
 		
-		$(".stat-count").each(function() {
-		  $(this).data('count', parseInt($(this).html(), 10));
-		  $(this).html('0');
-		  count($(this));
-	});
+		$("#counter").waypoint(function () {
+			$(".stat-count").each(function() {
+			  $(this).data('count', parseInt($(this).html(), 10));
+			  $(this).html('0');
+			  count($(this));
+			});
+		}, {offset: '100%', triggerOnce: true});
+
+
 
 //Parallax
 $(window).bind('load', function() {
