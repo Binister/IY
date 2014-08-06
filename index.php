@@ -346,6 +346,8 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                               <button class="btn btn-primary aligncenter">Meer klantervaringen</button>
                     </div>    
                     
+                    <div class="clearfix"></div>
+                    
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 extraTestimonial">
                         <div class="testimonial_wrap">
                             <div class="testimonial_details">
@@ -373,6 +375,8 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                             </div><!-- end testimonial_meta -->
                         </div><!-- end testimonial_wrap -->
                     </div><!-- end col-lg-6 -->
+
+                    <div class="clearfix"></div>
 
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 extraTestimonial">
                         <div class="testimonial_wrap">
