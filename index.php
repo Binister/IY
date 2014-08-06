@@ -405,9 +405,11 @@ in tempus urna rhoncus faucibus. Vestibulum hendrerit diam nunc, in tempus urna 
                             </div><!-- end testimonial_meta -->
                         </div><!-- end testimonial_wrap -->
                     </div><!-- end col-lg-6 -->
-
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="lessTestimonials">
-                              <a href="#anchTest"><button class="btn btn-primary aligncenter">Minder klantervaringen</button></a>
+                    
+                    <div class="clearfix"></div>
+                    
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <button class="btn btn-primary aligncenter" id="lessTestimonials">Minder klantervaringen</button>
                     </div>
 
                     <div class="clearfix"></div>
