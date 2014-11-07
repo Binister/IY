@@ -1,0 +1,662 @@
+/* --------------------------------------------------------------------------
+ * Prodigystudio  : Maleo - Multipurpose HTML Template
+ *  
+ * file           : Color Theme
+ * Desc           : Maleo Framework - Theme Switcher
+ * Version        : 1.2
+ * Date           : 08/12/2014
+ * Author         : Prodigystudio - team
+ * Author URI     : http://prodigystudio.net
+ * Email          : Hello@prodigystudio.net
+ *
+ * Prodigy Studio. Copyright 2014. All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+
+@import "compass/css3";
+
+$color-default 	: $color-theme;
+$color-hover 	: lighten($color-default, 15%);
+
+@mixin bg-color-extend {
+    background-color: $color-default;
+}
+
+@mixin bg-color-hover-extend {
+    background-color: $color-hover;
+}
+
+@mixin color-extend {
+    color: $color-default;
+}
+
+@mixin color-hover-extend {
+    color: $color-hover;
+}
+
+
+::selection {
+	background: $color-default;
+}
+
+::-moz-selection {
+	background: $color-default;
+}
+
+%bg-color 		{ @include bg-color-extend; }
+%bg-color-hover	{ @include bg-color-hover-extend; }
+%color 			{ @include color-extend; }
+%color-hover 	{ @include color-hover-extend; }
+
+
+.rowfull .left-bg {
+	@extend %bg-color;
+}
+
+a:hover {
+	@extend %color-hover;
+}
+
+//----------------
+// header
+header {
+	.logo-content {
+		@extend %bg-color;
+	}
+
+	.menu-trigger i {
+		@extend %color;
+	}
+}
+
+header .search-content .toggle-search {
+	@extend %color;
+}
+
+.header-info1 li.phone-info, 
+.header-info1 li.toggle-search {
+	@extend %color;
+	border: 2px solid $color-default;
+}
+
+//----------------
+// header version 2
+.header2, .header3 {
+	.header-content {
+		&:before {
+			@extend %bg-color;
+		}
+	}
+}
+
+.header2 {
+	.header-info {
+		li {
+			i { 
+				@extend %color; 
+			}	
+		}
+	}
+}
+
+.header3 {
+	.client-content {
+		.login {
+			@extend %bg-color;
+			&:hover {
+				@extend %color;
+			}
+		}
+
+		.signup {
+			&:hover {
+				@extend %bg-color;
+			}
+		}
+	}
+
+	.toggle-search {
+		border: 2px solid $color-default;
+		@extend %color;
+	}
+
+	.input-group .toggle-search {
+		border: none !important;
+	}
+}
+
+.header2, .header3 {
+	.logo-content {
+		.logo {
+			img {
+				@extend %bg-color;
+			}
+		}
+	}
+}
+
+.is-sticky {
+	.header2, .header3 {
+		&:before {
+			@extend %bg-color;
+		}
+	}
+	
+	.logo-content {
+		.logo {
+			img {
+				@extend %bg-color;
+			}
+		}
+	}
+}
+
+.button {
+	@extend %bg-color;
+	&.link {
+		@extend %color;
+		
+		&:hover, &:focus {
+			@extend %color-hover;
+			i {
+				@extend %color-hover;
+			}
+		}
+	}
+}
+
+#slider-wrapper {
+	.tp-leftarrow.default, 
+	.tp-rightarrow.default {
+		&:hover, &:focus {
+			@extend %color-hover;
+		}
+	}
+}
+
+.slider-button.button {
+	@extend %bg-color;
+	&:hover {
+		@extend %bg-color-hover;
+	}
+}
+
+.tp-bannertimer {
+	background: rgba($color-default, 0.2);
+}
+
+#promo-home {
+	h2 { 
+		@extend %color;
+	}
+}
+
+#service {
+	@extend %bg-color;
+	.sub-service { 
+		span {
+			@extend %bg-color;
+		}
+	}
+}
+
+#service {
+	.sub-service { 
+		background: $color-hover !important;
+	}
+}
+
+ul.service-list li,
+ul.client-list li {
+	background-image: linear-gradient(to bottom, $color-hover 100%, $color-hover 100%);
+}
+
+ul.service-list li:before,
+ul.client-list li:before {
+	background-image: linear-gradient(to right, $color-hover 100%, $color-hover 100%);
+}
+
+.heading-line { 
+	@extend %bg-color;
+}
+
+.maleo-color {
+	@extend %color;
+}
+
+// breadcrumb
+.breadcrumb {
+	.active {
+		@extend %color;
+	}
+}
+
+// about
+.about-team {
+	h3, span {
+		@extend %color;
+	}
+
+	.social-wrapper {
+		.social-feature {
+			li a {
+				&:hover {
+					@extend %color;
+				}
+			}
+		}
+	}
+}
+
+#twitter-wrapper {
+	#twitter-feed {
+		.twitter-text {
+			a, .at {
+				@extend %color;
+				&:hover, &:focus {
+					@extend %color-hover;
+				}
+			}
+		}
+	}
+}
+
+.inline-heading-line {
+	span {
+		@extend %bg-color;
+	}
+}
+
+.service-value {
+	.text-currency {
+		@extend %color;
+	}
+}
+
+// blog
+.date-post-info, .image-post-info {
+	border: 2px solid $color-default;
+}
+
+.date-post-info {
+	@extend %color;
+}
+
+.blog-media {
+	.carousel-nav {
+		.carousel-prev, .carousel-next {
+			&:hover {
+				@extend %color;
+			}
+		}
+	}
+}
+
+.tag-cloud a:hover {
+	@extend %bg-color;	
+	border:1px solid $color-default;
+}
+
+// contact
+ul.contact-form,
+ul.comment-form,
+.login-panel {
+	.form-control:focus {
+		border-color: $color-default;
+		-webkit-box-shadow: inset 0 1px 1px rgba($color-default,0.075), 0 0 8px rgba($color-default, 0.6);
+		box-shadow: inset 0 1px 1px rgba($color-default, 0.075), 0 0 8px rgba($color-default, 0.6);
+	}	
+}
+
+.blog-author ul.social-icon {
+	@extend %color;
+}
+
+.blog-author ul.social-icon li i {
+	@extend %color;
+}
+
+a.reply, a.reply:visited {
+	@extend %bg-color;	
+}
+
+h4.resp-accordion.resp-tab-active,
+h4.resp-accordion.resp-tab-active:hover,
+.resp-tabs-list li.resp-tab-active, 
+.resp-tabs-list li.resp-tab-active:hover {
+	@extend %bg-color;
+	border: 1px solid $color-default;
+}
+
+h4.resp-accordion:hover,
+h4.resp-accordion:focus,
+.resp-tabs-list li:hover, 
+.resp-tabs-list li:focus {
+	@extend %color;
+}
+
+// index layout
+.maleo-index-tab {
+	h4.resp-accordion, 
+	.resp-tabs-list li {
+		&:hover,
+		&.resp-tab-active {
+			h6 {
+				@extend %color;
+			}
+
+			@extend %color;
+
+			.svg-icon .svg-path, 
+			.svg-icon.style1 .svg-path {
+				stroke: $color-default !important;
+			}
+		}
+		
+		&:hover {
+			.svg-icon .svg-path, 
+			.svg-icon.style1 .svg-path {
+				stroke: $color-default !important;
+			}
+		}
+	}
+
+	h4.resp-accordion:hover,
+	h4.resp-accordion:focus,
+	.resp-tabs-list li:hover, 
+	.resp-tabs-list li:focus {
+		h6 {
+			@extend %color;
+		}
+	}
+
+	.resp-tabs-list li.resp-tab-active, 
+	.resp-tabs-list li.resp-tab-active:hover {
+		background: none !important;
+	}
+
+	.resp-tabs-list li.resp-tab-active {
+		border: none !important;
+	}
+}
+
+.maleo-tab {
+	h4.resp-accordion.resp-tab-active, 
+	h4.resp-accordion.resp-tab-active:hover, 
+	.resp-tabs-list li.resp-tab-active,
+	.resp-tabs-list li.resp-tab-active:hover {
+		border: none !important;
+	}
+ 
+	.resp-tabs-list li.resp-tab-active:hover {
+		background-color: #fff;
+	}
+}
+
+//----------------
+// menu
+.mo-menu a {
+	&:hover,
+	&:focus,
+	&:active,
+	&.highlighted {
+		@extend %color-hover;
+	}
+}
+
+.mo-menu ul a:hover,
+.mo-menu ul a:focus,
+.mo-menu ul a:active,
+.mo-menu ul a.highlighted {
+	@extend %color-hover;
+}
+
+.mo-menu a.active,
+.mo-menu a.current, 
+.mo-menu a.current:hover,
+.mo-menu a.current:focus,
+.mo-menu a.current:active {
+	@extend %color;
+}
+
+.mo-menu a:hover span.sub-arrow,
+.mo-menu a:focus span.sub-arrow,
+.mo-menu a:active span.sub-arrow,
+.mo-menu a.highlighted span.sub-arrow {
+	&:after {
+		@extend %color-hover;
+	}
+}
+
+.mo-menu span.scroll-up:hover span.scroll-up-arrow {
+	&:after {
+		@extend %color-hover;
+	}
+}
+
+.mo-menu span.scroll-down:hover span.scroll-down-arrow {
+	&:after {
+		@extend %color-hover;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.mo-menu .mega-menu-list li a:hover,
+	.mo-menu .mega-menu-list li a:focus,
+	.mo-menu .mega-menu-list li a:active {
+		color: $color-hover !important;
+	}
+}
+
+.label {
+	@extend %bg-color;
+}
+
+#portfolio-filter {
+	ul {
+		li {
+			a {				
+				&.selected, &:hover, &:focus {
+					@extend %color-hover;
+					border-color: $color-hover;
+				}
+			}
+		}
+	}
+}
+
+.blog-media2 .video-play:hover {
+	@extend %color-hover;
+}
+
+p.blog-date a, 
+p.blog-date a:visited {
+	@extend %color;
+}
+
+.blog-info {
+	@extend %bg-color;
+}
+
+.post-type { 
+	@extend %color;
+}
+
+footer {
+	.get-connect {
+		@extend %bg-color;
+	}
+
+	.scroll-top { 
+		&:hover {
+			@extend %bg-color;
+		}
+	}
+}
+
+.progress-bar .progress-content {
+	@extend %bg-color;
+}
+
+.progress-bar.thin .progress-content .progress-meter {
+	@extend %bg-color;
+}
+
+.mo-caption .content .preview,
+.mo-caption .content .permalink {
+	@extend %bg-color;
+	&:hover {
+		@extend %bg-color-hover;
+	}
+}
+
+.mo-caption .content .preview,
+.mo-caption .content .permalink {
+	opacity: 1;
+}
+
+.button.button-border {
+	border-color: $color-default;
+	@extend %color;
+}
+
+.button.button-border:hover,
+.button.button-border:focus,
+.button.button-border:active,
+.button.button-border.active {
+	@extend %bg-color-hover;
+	border: 2px solid $color-hover;
+}
+
+.svg-icon .icon-wrapper i, 
+.svg-icon.style1 .icon-wrapper i,
+.svg-icon.style2 .icon-wrapper i,
+.no-shape i {
+	@extend %color;
+}
+
+.svg-icon.style3 .svg-path {
+  fill: $color-default;
+}
+
+kbd, .highlight {
+	@extend %bg-color;
+}
+
+.panel.fold {
+	@extend %bg-color;
+	&:before {
+		border-color: white white darken($color-default, 20%) darken($color-default, 20%);
+	}
+}
+
+.pricing-table .title {
+	@extend %bg-color;
+}
+
+.pricing-table.style2 {
+	.title {
+		@extend %bg-color;
+	}
+
+	.price {
+		@extend %bg-color-hover;
+	}
+}
+
+.pricing-table.style4 {
+	.title {
+		@extend %color;
+	}
+
+	.price {
+		@extend %bg-color;
+	}
+}
+
+.testi.style2 .name {
+	@extend %bg-color;
+	&:before {
+		@extend %bg-color;
+		border-left: 8px solid $color-default;
+		border-top: 8px solid $color-default;
+	}
+}
+
+.testi.style3 .testi-container blockquote:before {
+	@extend %bg-color;
+	@include box-shadow(0px 0px 0px 3px $color-default);
+}
+
+.testi.style4 .name span {
+	@extend %bg-color;
+}
+
+.testi.style6 .name h4 {
+	background-color: rgba($color-default, 0.7);
+}
+
+#process-chart .button {
+	&:hover {
+		@extend %color-hover;
+	}
+}
+
+.button:hover, 
+.button:focus, 
+.button:active, 
+.button.active {
+	@extend %bg-color-hover;
+}
+
+.post-info a:hover,
+.post-info a:focus {
+	@extend %color-hover;
+}
+
+table.table thead {
+	@extend %bg-color;
+}
+
+.dropcap.circle, 
+.dropcap.square {
+	@extend %bg-color;
+}
+
+.promo-box {
+	@extend %bg-color;
+	.promo-button i {
+		@extend %color;
+	}
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	@extend %bg-color;
+}
+
+.pagination > .active > a, 
+.pagination > .active > span, 
+.pagination > .active > a:hover, 
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+	@extend %color;
+	border-color: $color-default;
+}
+
+.pagination > li > a:hover, 
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+	@extend %color-hover;
+	border-color: $color-hover;
+}
+
+/* Tablet Potrait */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	ul.service-list li {		
+		&:before {
+			background-image: linear-gradient(to right, $color-hover 100%, $color-hover 100%) !important;
+		}
+	}
+}

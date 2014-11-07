@@ -1,0 +1,426 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documentation</title>
+
+<!-- ////////////////////////////////// -->
+<!-- //      Start Stylesheets       // -->
+<!-- ////////////////////////////////// -->
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<!-- ////////////////////////////////// -->
+<!-- //        Favicon Files         // -->
+<!-- ////////////////////////////////// -->
+<link rel="shortcut icon" href="images/favicon.ico"/>
+
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.1.js"></script>
+<script type="text/javascript" src="js/ddaccordion.js"></script>
+<script type="text/javascript" src="js/faq-functions.js" ></script>
+<script type="text/javascript" src="js/jquery.coda-slider-2.0.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		//Coda Slider for Content Setting
+		$('#content-slider').codaSlider();({
+		});
+		
+		//Tab Jquery
+		$(".tab_content").hide(); 
+		$("ul.tabs li:first").addClass("active").show(); 
+		$(".tab_content:first").show(); 
+		$("ul.tabs li").click(function() {
+			$("ul.tabs li").removeClass("active");
+			$(this).addClass("active"); 
+			$(".tab_content").hide(); 
+			var activeTab = $(this).find("a").attr("href"); 
+			$(activeTab).fadeIn(); 
+			return false;
+		});			
+     });
+</script>
+</head>
+
+<body>	
+	<div id="container">
+    	
+        <!-- begin of header -->
+        <div id="table-content-wrapper">
+    		<ul id="table-content">
+            	<li><a class="xtrig" href="#1" rel="coda-slider-1">Cover</a></li>	
+            	<li><a class="xtrig" href="#2" rel="coda-slider-1">The Package</a></li> 
+                <li><a class="xtrig" href="#3" rel="coda-slider-1">HTML &amp; Site Structure</a></li>
+                <li><a class="xtrig" href="#4" rel="coda-slider-1">Logo &amp; Menu</a></li>
+                <li><a class="xtrig" href="#5" rel="coda-slider-1">Portfolio Filter</a></li>
+                <li><a class="xtrig" href="#6" rel="coda-slider-1">How To</a></li>
+                <li class="last"><a class="xtrig" href="#7" rel="coda-slider-1">Sources &amp; Credits</a></li>               
+            </ul>
+    	</div>    	
+        <!-- end of header -->        
+      	
+        <div class="coda-slider preload" id="content-slider">
+        	
+            
+            <!-- BEGIN OF PAGE1 -->            
+                <div class="panel">
+                    <div class="panel-wrapper">
+                        
+                    	<div id="page1">
+                
+                            <div id="logo"><img src="images/logo.png" alt="indonez logo" /></div>
+                            <div id="pre-text">
+                               <h5>Hi Welcome to Maleo!</h5>
+                               <h5>Maleo template designed with professional touch that generate ultra clean, minimal design, fresh, impressive and retina ready to increase your brand and corporate image. </h5>
+                             </div>                
+                            
+                       </div>  
+                        
+                    </div>
+                </div>            
+            <!-- END OF PAGE1 -->
+            
+            <!-- BEGIN OF PAGE2 -->           
+                <div class="panel">
+                    <div class="panel-wrapper">
+                        
+                    	<div id="page2">           
+                            <div class="col-1">
+                                <h4>The Package</h4>
+                                <p>The Maleo download package contains of 3 folder, the folder is "documentation", "html", and "psd". The main file of html file is under folder "html", and here the structure of file from of Maleo html.</p>
+                                <img src="images/file-structure.jpg" alt="" class="imgborder imgcenter" />                                  
+                                
+                                <h4>JS Files</h4>
+                                <ul class="circle-list">
+                                	<li>
+                                        <div class="left-list">contact-form.js</div>
+                                        used for contact form
+                                    </li>                                	                                  
+                                    <li>
+                                        <div class="left-list">icheck.js</div>
+                                        used for flat style radio and check button
+                                    </li>
+                                    <li>
+                                        <div class="left-list">instafeed.min.js</div>
+                                        used for instagram feed
+                                    </li>
+                                    <li>
+                                        <div class="left-list">jquery.countTo.js</div>
+                                        used for numeric counter
+                                    </li>
+                                    <li>
+                                        <div class="left-list">jquery.easypiechart.js</div>
+                                        used for circular bar
+                                    </li>                                                                     
+                                    <li>
+                                        <div class="left-list">jquery.easyResponsiveTabs.js</div>
+                                        used for accordion and tab
+                                    </li>
+                                    <li>
+                                        <div class="left-list">jquery.fancybox.js</div>
+                                        used for fancybox image popup
+                                    </li>                                
+                                    <li>
+                                        <div class="left-list">jquery.maps.js</div>
+                                        used for google map plugin in contact page
+                                    </li>
+                                    <li>
+                                        <div class="left-list">jquery.parallax.js</div>
+                                        used for background parallax
+                                    </li>
+                                    <li>
+                                        <div class="left-list">jquery.queryloader2.min.js</div>
+                                        used for preload page effect
+                                    </li>
+                                    <li>
+                                        <div class="left-list">jquery.isotope.min.js</div>
+                                        used for filterlable on portfolio
+                                    </li>
+                                    <li>
+                                        <div class="left-list">owl.carousel.min.js</div>
+                                        used for carousel content
+                                    </li>
+                                    <li>
+                                        <div class="left-list">jquery.retina.js</div>
+                                        used for retina image replacement
+                                    </li>
+                                    <li>
+                                        <div class="left-list">maleo.js</div>
+                                        All setting of jquery used for this theme
+                                    </li>                
+                                </ul>
+                                
+                                <h4>CSS Files</h4>
+                                <ul class="circle-list">
+                                    <li>
+                                        <div class="left-list">animate.css</div>
+                                        used for animate on some grid content
+                                    </li>
+                                    <li>
+                                        <div class="left-list">fancybox.css</div>
+                                        used for fancybox image pop up
+                                    </li>
+                                    <li>
+                                        <div class="left-list">social-icons.css</div>
+                                        contain styling of socials icon
+                                    </li>
+                                    <li>
+                                        <div class="left-list">maleo.css</div>
+                                        contain Maleo framework
+                                    </li>                                    
+                                    <li>
+                                        <div class="left-list">maleo-responsive.css</div>
+                                        contain styling of responsive design
+                                    </li>
+                                    <li>
+                                        <div class="left-list">style.css</div>
+                                        contain styling of this template
+                                    </li>
+                                    <li>
+                                        <div class="left-list">whhg.css</div>
+                                        contain styling of webhostinghub icon
+                                    </li>
+                                </ul>
+                            </div>                 
+                   </div> 
+                        
+                    </div>
+                </div>            
+            <!-- END OF PAGE2 -->
+            
+            <!-- BEGIN OF PAGE3 -->            
+                <div class="panel">
+                    <div class="panel-wrapper">
+                        
+                    	<div id="page3">           
+               
+                                <div class="col-3">
+                                    <h4>HTML Structure</h4>
+                                    <p>The layout in Maleo is flexible because this use "grid" system, so you can make any configuration of column (please refer the "column.html" for some sample of column).In this case I give example if you use 2 column, which one column is maincontent and one again is sidebar. All of the information within the maincontent area is nested within a div with an class of "large-8 columns" and for sidebar is nested within an class of "large-4 columns". Navigation menu is within a div with an class of "menu-content". The general template structure is the same throughout the template. Here is the general structure :</p>
+                               </div>
+                               <div class="col-2-2-last">                   		
+                                    <img src="images/html-structure.jpg" alt="" class="imgborder" />  
+                               </div>
+                               <div class="col-3">
+                                    <h4>Site Structure</h4>
+                                    <p>The page have five main blocks : header, pagetitle, content, and footer each block consisting of each element  present in it. </p>
+                               </div>
+                               <div class="col-2-2-last">                   		
+                                    <img src="images/site-structure.jpg" alt="" class="imgborder" />  
+                               </div>                   
+                            
+                       </div>  
+                        
+                    </div>
+                </div>            
+            <!-- END OF PAGE3 -->       
+            
+            <!-- BEGIN OF PAGE5 -->            
+                <div class="panel">
+                    <div class="panel-wrapper">
+                        
+                    	<div id="page5">
+                      
+                            <div class="col-1">    
+                               <h4>Logo</h4>
+                               <p>To edit the logo you can simply replace the "logo.png" for header logo file into the images folder, if you intend to use a png file. Default size for header logo is 104x79 pixel also you can change the slogan logo with just edit text in html.</p>
+                               <img src="images/logo-html.jpg" alt="" class="imgborder imgcenter" />                                            <h4>Menu</h4>
+                               <p>Menu at this theme is use horizontal menu style, and it use "li" to make menu and use "li" under "li" if you want make dropdown menu. If you want make active some menu please use <strong>class="active"</strong> in active menu that you want.</p>
+                               <img src="images/menu-html.jpg" alt="" class="imgborder imgcenter" />  
+                            </div>
+                                 
+                       </div>  
+                        
+                    </div>
+                </div>           
+            <!-- END OF PAGE5 -->
+            
+           <!-- BEGIN OF PAGE6 -->            
+                <div class="panel">
+                    <div class="panel-wrapper">
+                        
+                    	<div id="page6">           
+           
+                            <div class="col-1">    
+                               <h4>Portfolio Filter</h4>
+                               <p>To undestand how porfolio filter work, first you must create each category on portfolio filter list, on this example I will give name ".print", ".web", and ".motion". If you look on HTML file this will like this.</p>
+                               <img src="images/pf-filter.jpg" alt="" class="imgborder imgcenter" />
+                               <p>Now you just need add a class of your "category" on each "li" of your portfolio, see the image below</p>
+                               <img src="images/pf-filter2.jpg" alt="" class="imgborder imgcenter" />
+                            </div>
+                                 
+                       </div>
+                        
+                    </div>
+                </div>            
+            <!-- END OF PAGE6 -->
+            
+            <!-- BEGIN OF PAGE7 -->            
+                <div class="panel">
+                    <div class="panel-wrapper">
+                        
+                    	<div id="page7">                                                     
+                                 
+                                 <div class="col-3">
+                                    <h4>How to change Map location ?</h4>
+                                    <p>At "contact.html" on the line 455, you must set "latitude" point and "longitude" point. To know your position coordinates or latitude and longitude please visit : <a href="http://universimmedia.pagesperso-orange.fr/geo/loc.htm">http://universimmedia.pagesperso-orange.fr/geo/loc.htm</a></p>         
+                                       
+                                 </div>   
+                                 <div class="col-2-2-last">
+                                 	<img src="images/map-sett.jpg" alt="" class="imgborder" />                              
+                                    <p> Change latitude and longitude also don't forget change the latitude and longitude for marker icon with your value. </p>
+                                 </div>
+                                 
+                                 <div class="divider"></div>
+                                 <div class="clear"></div>
+                                 
+                                 <div class="col-3">
+                                    <h4>How to setting Contact Form ?</h4>
+                                    <p>To setting contact form, please open file "sendmail.php" and change with your email on the line 7.</p>                                                                        
+                                 </div>   
+                                 <div class="col-2-2-last">
+                                 	<img src="images/contact-sett.jpg" alt="" class="imgborder" />
+                                 </div>
+                                 
+                                 <div class="divider"></div>
+                                 <div class="clear"></div>                          
+                                 
+                                 <div class="col-3">
+                                    <h4>How to make image Retina ready in Retina devices ?</h4>
+                                    <p>First you must add a class in image that you want retina ready with this class : <strong>class="retina"</strong>, after that make a image with double size from regular size of image and in behind of name image put this :<strong>@2x</strong></p>                                                                                                            
+                                 </div>   
+                                 <div class="col-2-2-last">
+                                 	<img src="images/retina.jpg" alt="" class="imgborder" />
+                                    <p>Example : the reguler image name is <strong>top_info1.png</strong> so give the name of retina image with <strong>top_info1@2x.png</strong></p>
+                                 </div>                        
+                                 
+                                 <div class="divider"></div>
+                                 <div class="clear"></div>
+                                 
+                                 <div class="col-3">
+                                    <h4>How to make a new Favicon ?</h4>
+                                    <p>First you must make image on size 32x32 pixel, and save in png format, after that go to this site : <a href="http://tools.dynamicdrive.com/favicon/">http://tools.dynamicdrive.com/favicon/</a> and create your "favicon.ico" there and replace the old "favicon.ico" in image folder with your new favicon.ico</p>                                                                        
+                                 </div>   
+                                 <div class="col-2-2-last">
+                                 	<img src="images/favicon-sett.jpg" alt="" class="imgborder" />
+                                 </div>   
+
+                                 <div class="divider"></div>
+                                 <div class="clear"></div>
+								 
+								 <div class="col-3">
+								 	<h3>Maleo Update 1.2</h3>
+								 </div>
+                                 
+                                 <div class="divider"></div>
+                                 <div class="clear"></div>
+                                 
+                                 <div class="col-3">
+                                    <h4>How to Change Color Theme</h4>
+                                    <p>
+                                    	Replace css name from green.css to (your color choice).css 
+                                    </p>
+                                    <p>Premade color theme, available in css/theme/(your color choice).css </p>
+                                 </div>  
+
+                                 <div class="col-2-2-last">
+                                 	<img src="images/maleo1-1-color-theme.png" alt="" class="imgborder" />
+                                 	<img src="images/maleo1-1-list-color.png" alt="" class="imgborder" />
+                                 </div>    
+                  				
+                  				 <div class="divider"></div>
+                                 <div class="clear"></div>
+                                 
+                                 <div class="col-3">
+                                    <h4>How to Change to Box Frame</h4>
+                                    <p>
+                                    	Add box class in mo-wrapper id.  
+                                    </p>
+                                 </div>  
+
+                                 <div class="col-2-2-last">
+                                 	<img src="images/maleo1-1-box-frame.png" alt="" class="imgborder" />
+                                 </div>
+
+                                 <div class="divider"></div>
+                                 <div class="clear"></div>
+                                 
+                                 <div class="col-3">
+                                    <h4>How to Remove Switcher</h4>
+                                    <p>
+                                    	Remove link of theme-switcher.css, jquery.cookie.js script and theme-switcher.js  
+                                    </p>
+                                 </div>  
+
+                                 <div class="col-2-2-last">
+                                 	<img src="images/maleo1-1-switcher1.png" alt="" class="imgborder" />
+                                 	<img src="images/maleo1-1-switcher2.png" alt="" class="imgborder" />
+                                 </div>  
+
+                                 <div class="divider"></div>
+                                 <div class="clear"></div>
+                                 
+                                 <div class="col-3">
+                                    <h4>How to add Pattern for Box Frame</h4>
+                                    <p>
+                                    	Open style.css, add pattern stylesheet below body selector, see image for detail    
+                                    </p>
+                                 </div>  
+
+                                 <div class="col-2-2-last">
+                                 	<img src="images/maleo1-1-pattern.png" alt="" class="imgborder" />
+                                 	<img src="images/maleo1-1-pattern2.png" alt="" class="imgborder" />
+                                 </div>  
+
+                       </div> 
+                        
+                    </div>
+                </div>            
+            <!-- END OF PAGE7 -->     
+            
+            <!-- BEGIN OF PAGE8 -->            
+                <div class="panel">
+                    <div class="panel-wrapper">
+                        
+                    	<div id="page9">           
+           
+                            <div class="col-1">    
+                               <h4>Sources &amp; Credits</h4>
+                               <p>All image use on this theme are free and from :</p>
+                               <ul class="circle-list">
+                               		<li><a href="http://unsplash.com/">http://unsplash.com/ </a></li>
+                                    <li><a href="http://picjumbo.com/">http://picjumbo.com/ </a></li>
+                                    <li><a href="http://www.gratisography.com/">http://www.gratisography.com/ </a></li>
+                                </ul> 
+                                
+                                <p>All icon use on this theme are free and from :</p> 
+                                <ul class="circle-list">
+                                    <li>Thanks to - <a href=" http://www.webhostinghub.com/glyphs/"> http://www.webhostinghub.com/glyphs/</a> for awesome glyphicons</li>
+                                  
+                                </ul>                             
+                            </div>                     
+                            
+                            <div class="divider"></div>
+                            <div class="clear"></div>
+                            
+                            <div class="col-1">
+                            	<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+                                <p>Thanks,<br/>Prodigy Studio</p>
+                            </div>                           
+                                 
+                       </div>
+                        
+                    </div>
+                </div>            
+            <!-- END OF PAGE8 -->   
+                
+        </div><!-- .coda-slider -->       
+         	
+    	<div class="clear"></div>	       
+    </div>         
+   
+</body>
+</html>
