@@ -545,7 +545,7 @@ header .toggle-search {
   border-collapse: separate;
 }
 .input-group .form-control {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Calibri", 'Montserrat', sans-serif;
   height: 80px;
   padding: 9px 15px;
   display: table-cell;
@@ -697,7 +697,7 @@ header .toggle-search {
 }
 
 .button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Calibri', 'Montserrat', sans-serif;
   padding: 10px 27px 11px 27px;
 }
 .button i {
@@ -801,7 +801,7 @@ header .toggle-search {
 }
 
 .slider-button.button {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Calibri", "Montserrat", sans-serif;
   padding: 13px 27px 11px 27px !important;
   margin: 0 0 10px !important;
   display: inline-block;
@@ -1385,7 +1385,7 @@ footer .scroll-top:hover a {
   padding-top: 35px;
 }
 .about-team .content-team span {
-  font-family: "Tahoma", "sans-serif";
+  font-family: "Calibri", "Tahoma", "sans-serif";
   font-size: 11px;
   text-transform: uppercase;
   top: 5px;
@@ -1707,7 +1707,7 @@ _::-ms-reveal, .maleo-tab .resp-tabs-list {
 .feature.process .process-number2,
 .feature-right.process .process-number,
 .feature-right.process .process-number2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Calibri", 'Montserrat', sans-serif;
   font-weight: 400;
   color: #e8e8e8;
   font-size: 142px;
@@ -2129,7 +2129,7 @@ body:last-child .blog-columns .mejs-controls div.mejs-playpause-button, x:-moz-a
 
 p.blog-date {
   margin-bottom: 5px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Calibri", 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
   color: #a2a2a2 !important;
 }
@@ -2141,7 +2141,7 @@ p.blog-date a, p.blog-date a:visited {
 
 .blog-info {
   height: 50px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Calibri", 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
   color: #565656;
   padding: 8px 21px;
@@ -2326,7 +2326,7 @@ aside .label.round {
 
 /* Tag Cloud - prodigystudio */
 .tag-cloud {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Calibri", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   width: 100%;
   float: left;
@@ -2405,13 +2405,13 @@ ul.popular-list li .popular-description {
 ul.contact-form textarea,
 ul.comment-form textarea,
 .login-panel textarea {
-  font-family: "Open Sans", Arial;
+  font-family: "Calibri", "Open Sans", Arial;
 }
 ul.contact-form .form-control,
 ul.comment-form .form-control,
 .login-panel .form-control {
   background-color: #fbfbfb;
-  font-family: "Open Sans", Arial;
+  font-family: "Calibri", "Open Sans", Arial;
 }
 ul.contact-form .form-control:focus,
 ul.comment-form .form-control:focus,
@@ -2668,7 +2668,7 @@ ul.team-social li a:before {
 }
 
 .team-info small {
-  font-family: Arial, Tahoma;
+  font-family: "Calibri", Arial, Tahoma;
   font-size: 11.5px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -2726,7 +2726,7 @@ ul.team-social li a:before {
   margin-bottom: 18px;
   padding-bottom: 5px;
   font-size: 13px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Calibri", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   border-bottom: 4px solid #f0f0f0;
 }
@@ -2764,7 +2764,7 @@ ul.team-social li a:before {
 }
 
 .blog-author ul.social-icon li a {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Calibri", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: auto;
   height: auto;
   font-size: 14px;
@@ -2842,7 +2842,7 @@ ul.team-social li a:before {
 }
 
 .comment-text small {
-  font-family: Arial, Tahoma;
+  font-family: "Calibri", Arial, Tahoma;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
