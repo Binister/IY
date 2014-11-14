@@ -298,6 +298,30 @@ header {
   border-color: #EC008C !important;
 }
 
+.pinkbutton {
+  background-color: white !important;
+  color: #EC008C !important;
+  border-color: #EC008C !important;
+}
+
+.darkbluebutton {
+  background-color: white !important;
+  color: #005A96 !important;
+  border-color: #005A96 !important;
+}
+
+.pinkbutton:hover {
+  background-color: #EC008C !important;
+  color: white !important;
+  border-color: #EC008C !important;
+}
+
+.darkbluebutton:hover {
+  background-color: #005A96 !important;
+  color: white !important;
+  border-color: #005A96 !important;
+}
+
 .orangebutton {
   background-color: rgba(255, 148, 0, 1) !important;
   color: white !important;
@@ -364,7 +388,7 @@ header {
 }
 
 .active-feature:after{
-  z-index: 1;
+  z-index: 0;
   content: '';
   left: 50%;
   width: 60px;
@@ -417,6 +441,10 @@ header {
 }
 .service-list li .feature:hover .no-shape img {
   opacity: 0;
+}
+
+#process h5, #process h6 {
+  color: #005A96;
 }
 
 
