@@ -50,59 +50,16 @@
 
 <body>
    <div id="mo-wrapper">
-      <header class="header2 sticky-menu">
-         <div class="header-content">
-            <div class="row">
-               <div class="large-4 medium-5 medium-potrait-6 small-12 columns">
-                  <ul class="header-info">
-                     <li><i class="icon-phonealt"></i> +31 (0)10 340 30 80</li>
-                     <li><i class="icon-envelope"></i> service@insightyou.com</li>
-                  </ul>
-               </div>
-               <div class="large-8 medium-7 medium-potrait-6 small-hide columns">
-                  <ul class="social-header social-icon hover-social">
-                     <li><a class="social-twitter" href="#"></a></li>
-                     <li><a class="social-linkedin" href="#"></a></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="row">
-            <div class="large-3 medium-3 medium-potrait-12 columns logo-content">
-               <div class="logo">
-                  <a href="index.html">   
-                     <img src="img/insightyou_logo.png" alt="InsightYou Logo" class="retina">
-                  </a>
-               </div>
-            </div>
-
-            <nav class="menu-content">
-               <ul id="menu" class="sm mo-menu">
-                  <li><a href="gedachtegoed.html" class="active" disabled>Gedachtegoed</a>
-                  </li>
-                  <li><a href="succesverhalen.html">Ervaringen</a>
-                  </li>
-                  <li><a href="waarom-dna-analyse.html">Hoe werkt het?</a>
-                  </li>
-               </ul>
-               <ul class="header-info1">   
-                  <a href=""><li class="phone-info">
-                     Ik ben trainer / coach
-                  </li></a>
-                  <a href=""><li class="phone-info pinktext pinkborder">
-                     Log in
-                  </li></a>
-               </ul>
-            </nav>
-         </div>
-      </header>
+      <?php
+      require_once 'menu.php'; 
+      ?>
 
       <section class="mo-content p-t-none p-b-none">
          <div class="row">
                <ul class="large-block-grid-4 medium-block-grid-4 medium-potrait-block-grid-2 no-gutter service-list m-t-none m-b-none">
                   <li class="mo-animate" data-animate="fadeInDown">
                      <a href="">
-                        <div class="feature active-feature">
+                        <div class="feature">
                            <div class="no-shape">
                               <img src="img/neurowetenschappen.png" alt=""> 
                            </div>
@@ -113,7 +70,7 @@
                   </li>
                   <li class="mo-animate" data-animate="fadeInDown" data-delay="200">
                      <a href="">
-                        <div class="feature">
+                        <div class="feature active-feature">
                            <div class="no-shape">
                               <img src="img/evolutie.png" alt=""> 
                            </div> 
@@ -150,14 +107,64 @@
          </div>
       </section>
 
-      <section class="mo-content bg-full">
-         <div class="row">
-            <div class="large-6 columns mo-animate" data-animate="fadeInDown">
-               <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sunt quisquam repellendus veritatis quas commodi, eligendi alias, eveniet dolorem veniam beatae laudantium ea necessitatibus! Ipsum animi consequatur repellendus quis inventore!</p>
+      <section class="mo-content bg-full" id="process">
+         <div class="row p-b-sm">
+            <div class="large-12 column mo-animate text-center" data-animate="fadeInDown">
+               <h4>Talentontwikkeling aan de hand van vier fasen.</h4>
+               <p>Wij brengen de vier levensfasen van professionals in kaart.</p>
             </div>
-            <div class="large-6 columns mo-animate text-center" data-animate="fadeInDown">
-               ...
+         </div>
+         <div class="row">
+            <div class="large-6 medium-6 medium-potrait-12 small-12 columns mo-animate" data-animate="bounceIn" data-delay="200">
+               <div class="feature-right process">
+                  <div class="no-shape">
+                     <img src="img/evolutie-1.png" alt="">
+                  </div>    
+                  <h5>Biologisch startpunt</h5>
+                  <h6>DNA</h6> 
+                  <p>
+                     Ons DNA is afkomstig van onze ouders en vormt het fundament van wie we zijn en waar we vandaan komen. Het is de blauwdruk voor alle stofjes in ons lichaam - waaronder in de hersenen - en speelt dus een belangrijke rol in wie we zijn en wat we doen.
+                  </p>
+               </div>
+            </div>
+
+            <div class="large-6 medium-6 medium-potrait-12 small-12 columns mo-animate" data-animate="bounceIn" data-delay="400">
+               <div class="feature-right process">
+                  <div class="no-shape">
+                     <img src="img/evolutie-2.png" alt=""> 
+                  </div>  
+                  <h5>Biologische ontwikkeling</h5>
+                  <h6>Hechtingsstijlen</h6> 
+                  <p>
+                     In de eerste paar jaar van ons leven passen onze biologische systemen zich aan aan de omgeving waarin we opgroeien. Onze ouders en opvoeding spelen hierin een belangrijke rol, maar de rest van onze sociale omgeving natuurlijk ook.
+                  </p>
+               </div>
+            </div>
+
+            <div class="large-6 medium-6 medium-potrait-12 small-12 columns mo-animate" data-animate="bounceIn" data-delay="800">
+               <div class="feature-right process">
+                  <div class="no-shape">
+                     <img src="img/evolutie-3.png" alt="">  
+                  </div>    
+                  <h5>Persoonlijke ontwikkeling</h5>
+                  <h6>Drijfveren & motivaties</h6> 
+                  <p>
+                     Vervolgens gaan we ons als persoon ontwikkelen. Denk hierbij aan de vorming van bepaalde voorkeuren, motivaties en drijfveren.
+                  </p>
+               </div>
+            </div>
+
+            <div class="large-6 medium-6 medium-potrait-12 small-12 columns mo-animate" data-animate="bounceIn" data-delay="600">
+               <div class="feature-right process">
+                  <div class="no-shape">
+                     <img src="img/evolutie-4.png" alt="">  
+                  </div>    
+                  <h5>Professionele ontwikkeling</h5>
+                  <h6>Commercieel fundament</h6> 
+                  <p>
+                     Onze biologische en persoonlijke ontwikkeling moet je interpreteren in de professionele context waarin we actief zijn. Daarom brengen wij ook commerciële drives in kaart. Zo komen we tot een totaalbeeld.
+                  </p>
+               </div>
             </div>
          </div>
       </section>
