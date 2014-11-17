@@ -80,67 +80,13 @@
          </div>
       </section>
 
-      <section class="mo-content bg-full">
-         <div class="row">
-            <div class="large-12 columns mo-animate text-center" data-animate="fadeInDown">
-               <h4>Klaar om het maximale uit jezelf te halen? Begin vandaag nog.</h4>
+      <?php 
+         require_once 'footer.php'; 
+      ?>
 
-               <a class="button large orangebutton radius" href="#">Start mijn ontwikkeling<i class="icon-chevron-right"></i></a>
-            </div>
-         </div>
-      </section>
-      <footer>
-         <div class="mo-contentfull content-bg" id="footer-bg">
-            <div class="rowfull">
-               <div class="left-bg"></div>
-               <div class="right-bg"></div>
-            </div>
-         </div>
-
-         <section class="mo-content footer-content bg-lightblue whitetext">
-            <div class="row">
-               <div class="large-3 medium-3 medium-potrait-12 columns">
-                  <p>&copy; 2014 InsightYou B.V.</p>        
-               </div>
-
-               <div class="large-3 medium-3 medium-potrait-4 columns">
-                  <h6 class="whitetext">Contact</h6>
-                  <ul>
-                     <li>Wij horen graag van u op:</li>
-                     <li><a href="#">service@insightyou.com</a></li>
-                  </ul>
-               </div>
-
-               <div class="large-3 medium-3 medium-potrait-4 columns">
-                  <h6 class="whitetext">Quick Links</h6>
-                  <ul>
-                     <li><a href="#">Ontwikkelen</a></li>
-                     <li><a href="#">Ervaringen</a></li>
-                     <li><a href="waarom-dna-analyse.html">Hoe werkt het?</a></li>
-                     <li><a href="#">Ik ben trainer / coach</a></li>
-                     <li><a href="#">Log in</a></li>
-                  </ul>
-               </div>
-
-               <div class="large-3 medium-3 medium-potrait-4 columns">
-                  <h6 class="whitetext">Adres</h6>
-                  <ul>
-                     <li>Westersingel 87 III </li>
-                     <li>3015 LC Rotterdam</li>
-                     <li>The Netherlands</li>
-                  </ul>
-
-                  <address>  
-                     +31 (0)10 340 30 80                  
-                  </address>
-               </div>
-
-               <div class="scroll-top">
-                  <a id="top" class="scroll"><i class="icon-chevron-up"></i></a>
-               </div>
-            </div>
-         </section>
-      </footer>
+      <?php 
+         require_once 'footer.php'; 
+      ?>
 
    </div>
    
