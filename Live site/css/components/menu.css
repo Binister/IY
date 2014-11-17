@@ -160,9 +160,9 @@ ul.sm {
 .mo-menu a {
   padding: 12px 18px;
   color: #afafaf;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 17px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Calibri", "Montserrat", sans-serif;
   text-decoration: none;
 }
 .mo-menu a:hover, .mo-menu a:focus, .mo-menu a:active, .mo-menu a.highlighted {

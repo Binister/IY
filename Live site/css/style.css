@@ -345,7 +345,7 @@ header .toggle-search {
   height: 44px;
   margin-right: 14px;
   float: left;
-  font-size: 14px;
+  font-size: 1em;
   padding: 4px 15px 0 15px;
 }
 .header-info1 li.phone-info i {
