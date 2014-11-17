@@ -292,7 +292,7 @@
             </div>
 
             <div class="large-4 medium-4 medium-potrait-5 small-12 small-center columns text-center mo-animate" data-animate="fadeInRight">
-               <a href="#" class="button radius orangebutton">Start mijn ontwikkeling <i class="icon-chevron-right"></i></a>
+               <a href="#" class="button radius large orangebutton">Start mijn ontwikkeling <i class="icon-chevron-right"></i></a>
 
             </div>
          </div>
@@ -463,7 +463,7 @@
             <div class="large-12 columns mo-animate text-center" data-animate="fadeInDown">
                <h4>Klaar om het maximale uit jezelf te halen? Begin vandaag nog.</h4>
 
-               <a class="button orangebutton radius" href="#">Start mijn ontwikkeling<i class="icon-chevron-right"></i></a>
+               <a class="button orangebutton radius large" href="#">Start mijn ontwikkeling<i class="icon-chevron-right"></i></a>
             </div>
          </div>
       </section>

@@ -32,7 +32,7 @@
 
       <nav class="menu-content">
          <ul id="menu" class="sm mo-menu">
-            <li class="<?php echo ($_SERVER['PHP_SELF'] == '/biologische-identiteit.php' ? ' active' : '');?>"><a href="biologische-identiteit">Gedachtegoed</a>
+            <li class="<?php echo ($_SERVER['PHP_SELF'] == '/biologische-identiteit.php' || $_SERVER['PHP_SELF'] == '/ontwikkeling-van-talent.php' || $_SERVER['PHP_SELF'] == '/wetenschappelijk-fundament.php' || $_SERVER['PHP_SELF'] == '/professionele-context.php'? ' active' : '');?>"><a href="biologische-identiteit">Gedachtegoed</a>
             </li>
             <li class="<?php echo ($_SERVER['PHP_SELF'] == '/succesverhalen.php' ? ' active' : '');?>"><a href="succesverhalen">Succesverhalen</a>
             </li>
