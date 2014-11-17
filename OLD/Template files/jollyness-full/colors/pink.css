@@ -1,0 +1,177 @@
+/* COLOR SCHEMES */
+
+	.mmodebody .title h1 span,
+	.popular_items_div .price1,
+	.bigtitle .last span,
+	.twitter_widget .lead:before,
+	.twitter_widget .details a,
+	.product-content .price1-new,
+	.breadcrumb a,
+	.highlight,
+	.testimonial_widget .lead:after,
+	.testimonial_widget .lead:before,
+	.tp-caption.pacifico2 span,
+	.testimonial_widget .details,
+	.tp-caption.pacifico3 span,
+	.tp-caption.small_thin_grey1 span,
+	.darkwrapper h1 span,
+	.center-title span,
+	.price-detail,
+	.rating i,
+	.featureslist li:before,
+	.check li:before,
+	.product_details li:before,
+	a.readmore,
+	.service-box .serviceicon i,
+	.pricing-box:hover div.price,
+	.servicesbox .serviceicon,
+	.copyright1 a:hover,
+	.copyright1 a:focus,
+	.tp-caption.big_title,
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
+	.navbar-default .navbar-nav > .open > a:focus,
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus,
+	#defaultmenu .navbar-nav li a:hover,
+	.callus span,
+	.social a:hover,
+	.panel-default > .panel-heading:hover a, 
+	.panel-default > .panel-heading:hover .panel-title:after,
+	.footer1 i:hover,
+	.searchicon:before,
+	.serviceslist .service-icon a i,
+	.serviceslist .servicesbox .serviceicon i,
+	.portfolio-filter a:hover,
+	.portfolio-filter a:focus,
+	.testimonial_meta span,
+	.testimonial_meta i,
+	.custom-box .serviceicon i,
+	.footer-social li i,
+	.custom-box .diamondicon i,
+	a {
+		color:#ec0160;
+	}
+	
+	div.bbp-template-notice, div.indicator-hint,
+	#bbpress-forums li.bbp-body ul.forum li.bbp-forum-topic-count:hover,
+	#bbpress-forums li.bbp-body ul.forum li.bbp-forum-reply-count:hover,
+	.bs-glyphicons li:hover,
+	.onsale,
+	.volume:hover,
+	.tagcloud a:hover,
+	.servicesbox .serviceicon:hover,
+	.cs-style-3 figcaption a.addtocart,
+	.cs-style-3 figcaption a.zoom,
+	.cs-style-3 figcaption  a.external,
+	.pagination > .active > a, 
+	.pagination > .active > span, 
+	.pagination > .active > a:hover, 
+	.pagination > .active > span:hover, 
+	.pagination > .active > a:focus, 
+	.pagination > li > a:hover,
+	.pagination > li > span:hover,
+	.pagination > li > a:focus,
+	.pagination > li > span:focus,
+	.footer-social li:hover,
+	.pagination > .active > span:focus,
+	.service-square-icon,
+	.pricing-box:hover,
+	.pager li > a, .pager li > span,
+	div.price,
+	.service-box .serviceicon:hover,
+	.custom-box:hover .serviceicon,
+	.progress-bar,
+	.greybg .serviceslist .service-icon .serviceicon:hover,
+	.service-icon .serviceicon:hover,
+	.hovicon.effect-1.sub-a:hover,
+	.hovicon.effect-1.sub-a:hover i,
+	.hovicon.effect-1,
+	.hovicon.effect-1.sub-a:hover,
+	.flex-direction-nav a,
+	.miniicon,
+	mark,
+	div.bbp-template-notice.info,
+	.flex-control-paging li a.flex-active,
+	.portfolio-filter li a:before,
+	.btn-primary,
+	.twitter-widget ul li:hover:before,
+	.owl-theme .owl-controls .owl-page.active span,
+	.owl-theme .owl-controls.clickable .owl-page:hover span,
+	.testimonial_details:hover,
+	.nav-tabs > li > a:hover,
+	.custom-box:hover .diamondicon {
+		background-color:#ec0160;
+	}
+
+	.pricing-box .jtbtn,
+	.bigtitle h1:after,
+	.footer-social li,
+	.serviceicon:hover,
+	.custom-box:hover,
+	.custom-box:hover .serviceicon,
+	.serviceslist .service-icon .serviceicon,
+	.post-wrapper-top h2,
+	.form-control:focus,
+	.btn-primary:hover,
+	.btn-primary:focus,
+	.btn-primary:active,
+	.flickr-gallery li:hover,
+	.panel-default > .panel-heading:hover,
+	.twitter-widget ul li:before,
+	.owl-theme .owl-controls .owl-page.active span,
+	.owl-theme .owl-controls.clickable .owl-page:hover span,
+	div.bbp-template-notice.info,
+	div.bbp-template-notice, div.indicator-hint,
+	.tagcloud a:hover,
+	.flex-control-paging li a,
+	.flex-control-paging li a.flex-active,
+	.tp-bullets.simplebullets .bullet:hover,
+	.tp-bullets.simplebullets .bullet.selected,
+	.btn-primary {
+		border-color:#ec0160;
+	}
+
+	.miniicon:after,
+	.title1 hr:after,
+	.title hr:after,
+	.nav .open > a:after,
+	.nav .open > a:hover:after,
+	.nav .open > a:focus:after,
+	.navbar-default .navbar-nav > .active > a:hover:after, 
+	.navbar-default .navbar-nav > .active > a:focus:after,
+	.navbar-nav > li > a:focus:after,
+	.navbar-nav > li > a:hover:after {
+		border-top-color: #ec0160;
+	}
+
+	.dmtop {
+		background-color:#ec0160 !important;
+	}
+	
+	#onepage .tp-bannertimer{
+		background:rgba(236,1,96,0.8) !important;
+	}
+	
+	.jtbtn-big2 {
+		color:#ec0160 !important;
+	}
+		
+	.miniicon:before {
+		border-bottom-color:#ec0160;
+	}
+	
+	.hovicon.effect-1:after {
+		box-shadow: 0 0 0 4px #ec0160;
+	}
+
+	.jtbtn-big {
+	  border:1px solid #ec0160;
+	}
+	
+	.btn-primary:hover,
+	.btn-primary:focus,
+	.btn-primary:active {
+		background-color:#c20451;
+	}	
