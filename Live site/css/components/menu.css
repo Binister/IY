@@ -143,6 +143,7 @@ ul.sm {
   left: -2px;
 }
 
+
 .mo-menu-vertical {
   padding: 10px 0;
   -moz-border-radius: 5px;
@@ -159,7 +160,6 @@ ul.sm {
 /* ----- Menu items ----- */
 .mo-menu a {
   padding: 12px 18px;
-  color: #afafaf;
   font-size: 1em;
   line-height: 17px;
   font-family: "Calibri", "Montserrat", sans-serif;
