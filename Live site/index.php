@@ -54,6 +54,7 @@
       <?php
       require_once 'paginas.php';
       require_once 'menu.php'; 
+      require_once 'testimonials.php';
       ?>
       
       <section class="mo-contentfull" id="slider-wrapper">   
@@ -288,22 +289,22 @@
 
       <section class="mo-content bg-full" id="subheader">
          <div class="row">
-            <div class="large-8 medium-8 medium-potrait-7 small-12 columns mo-animate" data-animate="fadeInLeft">
-               <h4>InsightYou is een ontwikkelplatform voor professionals. Met een DNA analyse en een wetenschappelijk gevalideerde ontwikkel-assessment helpen wij je om doelgericht te groeien op basis van jouw eigen biologische identiteit.</h4>
+            <div class="large-8 medium-8 medium-potrait-7 small-12 columns">
+               <h4>InsightYou is een ontwikkelplatform voor professionals. Met een DNA analyse en een wetenschappelijk gevalideerde ontwikkel-assessment helpen wij je om doelgericht te groeien op basis van jouw biologische identiteit.</h4>
             </div>
 
             <div class="large-4 medium-4 medium-potrait-5 small-12 small-center columns text-center mo-animate" data-animate="fadeInRight">
-               <a href="#" class="button radius large orangebutton">Start mijn ontwikkeling <i class="icon-chevron-right"></i></a>
+               <a href="<?php echo $page5; ?>" class="button radius large orangebutton">Start mijn ontwikkeling <i class="icon-chevron-right"></i></a>
 
             </div>
          </div>
 
          <div class="row p-t">
-            <div class="large-12 columns gap mo-animate text-center" data-animate="fadeInRight">
+            <div class="large-12 columns gap text-center">
                <p>Professionals van deze organisaties gingen je voor:</p>        
             </div>
             <div class="large-8 medium 12 medium-offset-0 large-offset-2 columns gap">
-            <ul id="carousel-testimonial" class="owl-carousel mo-animate" data-animate="fadeInRight">
+            <ul id="carousel-testimonial" class="owl-carousel">
                <li><img src="img/client_logo/kpn.png" alt=""></li>
                <li><img src="img/client_logo/bkv.png" alt=""></li>
                <li><img src="img/client_logo/facilicom.png" alt=""></li>
@@ -319,13 +320,13 @@
 
       <section class="mo-content p-b-sm">
          <div class="row">
-            <div class="large-12 column mo-animate text-center" data-animate="fadeInDown">
+            <div class="large-12 column text-center">
                <h4>Welkom bij jezelf.</h4>
                <p>Jij bent uniek. De manier waarop jouw hersenen informatie verwerken en opslaan is anders dan ieder ander. Wij noemen dat jouw biologische identiteit. Om doelgericht te kunnen ontwikkelen als professional, is het dan ook cruciaal dat jouw ontwikkelplan is afgestemd op wie jij bent. Wij zullen je daarbij helpen.</p>
             </div>
-            <div class="large-3 medium-6 columns mo-animate" data-animate="bounceIn">
+            <div class="large-3 medium-6 columns">
                <div class="feature process">
-                  <div class="no-shape">
+                  <div class="no-shape mo-animate" data-animate="bounceIn" data-delay="200">
                      <img src="img/dna-analyse.png" alt=""> 
                   </div>    
                   <h5>DNA analyse</h5> 
@@ -337,9 +338,9 @@
                </div>
             </div>
 
-            <div class="large-3 medium-6 columns mo-animate" data-animate="bounceIn">
+            <div class="large-3 medium-6 columns">
                <div class="feature process">
-                  <div class="no-shape">
+                  <div class="no-shape mo-animate" data-animate="bounceIn" data-delay="400">
                      <img src="img/assessment.png" alt=""> 
                   </div>    
                   <h5>Ontwikkel-assesment</h5> 
@@ -351,9 +352,9 @@
                </div>
             </div>
 
-            <div class="large-3 medium-6 columns mo-animate" data-animate="bounceIn">
+            <div class="large-3 medium-6 columns">
                <div class="feature process">
-                  <div class="no-shape">
+                  <div class="no-shape mo-animate" data-animate="bounceIn" data-delay="600">
                      <img src="img/feedback.png" alt=""> 
                   </div>    
                   <h5>Online feedback</h5> 
@@ -365,9 +366,9 @@
                </div>
             </div>
 
-            <div class="large-3 medium-6 columns mo-animate" data-animate="bounceIn">
+            <div class="large-3 medium-6 columns">
                <div class="feature process">
-                  <div class="no-shape">
+                  <div class="no-shape mo-animate" data-animate="bounceIn" data-delay="800">
                      <img src="img/ontwikkelen.png" alt=""> 
                   </div>    
                   <h5>Duurzaam succesvol</h5> 
@@ -414,46 +415,18 @@
       <section class="mo-content p-t-sm">
          <div class="row">
             <div class="large-12 columns" data-bottom="20">
-               <h4 class="gap mo-animate text-center" data-animate="fadeInLeft">Word onderdeel van de InsightYou community.</h4>
+               <h4 class="gap text-center">Word onderdeel van de InsightYou community.</h4>
             </div>
 
             <div class="large-6 medium-12 columns">
-               <div class="testi style3 mo-animate" data-animate="fadeInLeft">
-                  <div class="testi-container">
-                     <blockquote>
-                        <p>De uitslag van mijn InsightYou Sales profiel blijft me positief ‘achtervolgen’. Telkens als ik een gesprek voer met een klant zie ik mijn profiel terug in mijn handelen. Mijn ‘biologische kracht’ benut ik in mijn salesgesprekken en gebruik ik om mijn collega’s aan te vullen en te ondersteunen. Voor de punten waar ik onder de benchmark scoor roep ik actief hulp in. Mooi zou zijn om dit voor een salesteam te doen, zodat je optimaal van elkaar ‘gebruik’ kunt maken.</p>
-                     </blockquote>
-                  </div>
-
-                  <div class="image">
-                     <img src="img/client_pictures/wouter_glas.jpg" alt="" />
-                  </div>
-
-                  <div class="name">Wouter Glas
-                     <br/>
-                     <span class="label white radius">Manager &ndash; Pro Garden</span>
-                     <a href="#" class="darkbluetext"> <i class="icon-linkedin"></i></a>
-                  </div>         
+               <div class="testi style3">
+                  <?php echo $testimonialsToEcho[0]; ?>        
                </div>
             </div>
 
             <div class="large-6 medium-12 columns">
-               <div class="testi style3 mo-animate" data-animate="fadeInRight">
-                  <div class="testi-container">
-                     <blockquote>
-                        <p>Het InsightYou Sales profiel heeft mij kennis laten maken met mijzelf. Ik kan mijn natuurlijke talenten nu effectief uitbouwen. Doen waar je goed in bent ervaar ik als plezier en energie gevend i.p.v. energie eisend. De “zwakke” punten in mijn profiel waren confronterend. Als sales professional ben je competitief en wil je de beste zijn. Hier nu bewust aan kunnen werken geeft mij zelfcontrole: ik weet immers waar mijn gedrag of acties vandaan komen.</p>
-                     </blockquote>
-                  </div>
-
-                  <div class="image">
-                     <img src="img/client_pictures/tim_de_vries.jpg" alt="" />
-                  </div>
-
-                  <div class="name">Tim de Vries 
-                     <br/>
-                     <span class="label white radius">Manager &ndash; Charm Shop</span>
-                     <a href="#" class="darkbluetext"> <i class="icon-linkedin"></i></a>
-                  </div>         
+               <div class="testi style3">
+                  <?php echo $testimonialsToEcho[1]; ?>         
                </div>
             </div>
          </div>
