@@ -255,8 +255,24 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  min-height: 90px !important;
-  height: 90px !important;
+  min-height: 93px !important;
+  height: 93px !important;
+}
+
+
+.mo-menu .no-bullet:after {
+  content: "" !important;
+}
+
+.menu-button { 
+  font-family: "Calibri", "Montserrat", sans-serif;
+  border: 2px solid #1C9AD6;
+  color: #1C9AD6 !important;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
 }
 
 #slider-wrapper h3 {
@@ -264,18 +280,23 @@ header {
 }
 
 .bg-pink {
-  background: #EC008C;
-  color: white;
+  background: #EC008C !important;
+  color: white !important;
 }
 
 .bg-lightblue {
-  background: #1C9AD6;
-  color: white;
+  background: #1C9AD6 !important;
+  color: white !important;
 }
 
 .bg-darkblue {
-  background: #005A96;
-  color: white;
+  background: #005A96 !important;
+  color: white !important;
+}
+
+.bg-darkgrey {
+  background: #525252 !important;
+  color: white !important;
 }
 
 .pinktext {
@@ -296,6 +317,10 @@ header {
 
 .pinkborder {
   border-color: #EC008C !important;
+}
+
+.darkblueborder {
+  border-color: #005A96 !important;
 }
 
 .pinkbutton {
@@ -343,12 +368,20 @@ header {
   padding-bottom: 50px !important;
 }
 
-.p-t-sm {
+.p-t-m {
   padding-top: 25px !important;
 }
 
-.p-b-sm {
+.p-b-m {
   padding-bottom: 25px !important;
+}
+
+.p-t-sm {
+  padding-top: 12px !important;
+}
+
+.p-b-sm {
+  padding-bottom: 12px !important;
 }
 
 .p-t-none {
@@ -359,6 +392,38 @@ header {
   padding-bottom: 0 !important;
 }
 
+.p-r {
+  padding-right: 50px !important;
+}
+
+.p-l {
+  padding-left: 50px !important;
+}
+
+.p-r-m {
+  padding-right: 25px !important;
+}
+
+.p-l-m {
+  padding-left: 25px !important;
+}
+
+.p-r-sm {
+  padding-right: 12px !important;
+}
+
+.p-l-sm {
+  padding-left: 12px !important;
+}
+
+.p-r-none {
+  padding-right: 0 !important;
+}
+
+.p-l-none {
+  padding-left: 0 !important;
+}
+
 .m-t {
   margin-top: 50px !important;
 }
@@ -367,12 +432,20 @@ header {
   margin-bottom: 50px !important;
 }
 
-.m-t-sm {
+.m-t-m {
   margin-top: 25px !important;
 }
 
-.m-b-sm {
+.m-b-m {
   margin-bottom: 25px !important;
+}
+
+.m-t-sm {
+  margin-top: 12px !important;
+}
+
+.m-b-sm {
+  margin-bottom: 12px !important;
 }
 
 .m-t-none {
@@ -381,6 +454,38 @@ header {
 
 .m-b-none {
   margin-bottom: 0 !important;
+}
+
+.m-r {
+  margin-right: 50px !important;
+}
+
+.m-l {
+  margin-left: 50px !important;
+}
+
+.m-r-m {
+  margin-right: 25px !important;
+}
+
+.m-l-m {
+  margin-left: 25px !important;
+}
+
+.m-r-sm {
+  margin-right: 12px !important;
+}
+
+.m-l-sm {
+  margin-left: 12px !important;
+}
+
+.m-r-none {
+  margin-right: 0 !important;
+}
+
+.m-l-none {
+  margin-left: 0 !important;
 }
 
 .feature {
@@ -393,7 +498,7 @@ header {
   left: 50%;
   width: 60px;
   height: 60px;
-  background: #f8f8f8;
+  background: #1C9AD6;
   bottom: -100px;
   position: absolute;
   -webkit-border-radius: 7px;
@@ -404,6 +509,10 @@ header {
   transform: translateX(-50%) rotate(45deg);
   -ms-transform: translateX(-50%) rotate(45deg);
   -webkit-transform: translateX(-50%) rotate(45deg);
+}
+
+.featurebox-grey:after {
+  background: #f8f8f8 !important;
 }
 
 .active-feature h6 {
@@ -450,7 +559,7 @@ header {
 
 
 footer .scroll-top:hover {
-  background-color: #EC008c !important;
+  background-color: #EC008C !important;
 }
 
 @media screen and (max-width: 1024px) {
@@ -468,5 +577,35 @@ footer .scroll-top:hover {
 @media screen and (max-width: 768px) {
   #slider-wrapper h2 {
     font-size: 2em !important;
+  }
+
+  .darkbluebutton {
+    color: #005A96 !important;
+    border: none !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+    border-radius: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .pinkbutton {
+    color: #EC008C !important;
+    border: none !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+    border-radius: 0px !important;
+  }
+
+  .darkbluebutton:hover {
+    color: #005A96 !important;
+    background-color: white !important;
+    border: none !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+    margin-right: 0px !important;
+  }
+
+  .pinkbutton:hover {
+    color: #EC008C !important;
+    background-color: white !important;
+    border: none !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
   }
 }
