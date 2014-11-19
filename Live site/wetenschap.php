@@ -55,25 +55,53 @@
       require_once 'menu.php';
       require_once '2_submenu.php';
       ?>
+
+      <section class="mo-content bg-full">
+         <div class="row">
+            <div class="large-12 column">
+               <h4>Onze kennisdoelstelling.</h4>
+               <p>Het ontwikkelen en delen van kennis is onze passie. Daarom zijn de InsightYou profielen gebaseerd op 25 jaar aan wetenschappelijk onderzoek.</p>
+            </div>
+         </div>
+      </section>
       
-      <section class="mo-content bg-full" id="service2">
-         <div class="row p-b-sm">
-            <div class="large-12 column mo-animate text-center" data-animate="fadeInDown">
-               <h4>Lorem ipsum dolor sit amet, consectetur adipisicing..</h4>
+      <section class="mo-content">
+         <div class="row">
+            <div class="large-12 column text-center">
+               <h4>Awards.</h4>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo similique recusandae possimus, maxime in facere!</p>
             </div>
          </div>
          <div class="row">
-            <div class="large-12 columns mo-animate" data-animate="fadeInDown">
+            <div class="large-12 medium 12 columns gap">
+            <ul id="carousel-testimonial" class="owl-carousel mo-animate" data-animate="fadeInDown">
+               <li><img src="img/client_logo/kpn.png" alt=""></li>
+               <li><img src="img/client_logo/bkv.png" alt=""></li>
+               <li><img src="img/client_logo/facilicom.png" alt=""></li>
+               <li><img src="img/client_logo/deltalloyd.png" alt=""></li>
+               <li><img src="img/client_logo/dunbradstreet.png" alt=""></li>
+               <li><img src="img/client_logo/bakercorp.png" alt=""></li>
+            </ul>
+         </div>
+      </section>   
+         
+      <section class="mo-content" id="service2">
+         <div class="row m-b-sm">
+            <div class="large-12 column text-center">
+               <h4>Wetenschappelijk fundament.</h4>
+            </div>
+         </div>   
+         <div class="row">
+            <div class="large-12 columns">
                <div id="left-tab" class="maleo-index-tab">
                   <!-- tab list -->
                   <ul class="resp-tabs-list">
                      <li class="clearfix">
                         <div class="feature-left">   
                            <div class="maleo-tab-text">   
-                           <h6>Fuly Responsive</h6> 
+                           <h6>Succesfactoren in Sales</h6> 
                               <p class="text-overflow">
-                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                 Drivers of sales performance: a contemporary meta-analysis. Have salespeople become knowledge brokers?
                               </p>
                            </div>
                         </div>
@@ -81,9 +109,9 @@
                      <li class="clearfix">
                         <div class="feature-left">
                            <div class="maleo-tab-text">   
-                              <h6>Retina Device Ready</h6> 
+                              <h6>De rol van dopamine tijdens klantgericht verkopen</h6> 
                               <p class="text-overflow">
-                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                 Genetic and neurological foundations of customer orientation: field and experimental evidence.
                               </p>
                            </div>
                         </div>
@@ -91,9 +119,29 @@
                      <li class="clearfix">
                         <div class="feature-left">
                            <div class="maleo-tab-text">   
-                              <h6>Tons of Features</h6> 
+                              <h6>Politieke handigheid binnen professionele organisaties</h6> 
                               <p class="text-overflow">
-                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                 Theory of mind and empathic explanations of Machiavellianism: an organizational neuroscience perspective.
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="clearfix">
+                        <div class="feature-left">
+                           <div class="maleo-tab-text">   
+                              <h6>Hoe oxytocine de klantrelatie beïnvloedt</h6> 
+                              <p class="text-overflow">
+                                 Polymorphisms of the OXTR gene explain why sales professionals love to help customers. 
+                              </p>
+                           </div>    
+                        </div>
+                     </li>
+                     <li class="clearfix">
+                        <div class="feature-left">
+                           <div class="maleo-tab-text">   
+                              <h6>Empathisch vermogen onder verkopers</h6> 
+                              <p class="text-overflow">
+                                 A Sales force–specific Theory-of-Mind scale: tests of its validity by classical methods and Functional Magnetic Resonance imaging. 
                               </p>
                            </div>    
                         </div>
@@ -101,9 +149,29 @@
                      <li class="clearfix">
                         <div class="feature-left">  
                            <div class="maleo-tab-text">   
-                           <h6>Fuly Responsive</h6> 
+                           <h6>Het belang van opvoeding van Sales</h6> 
                               <p class="text-overflow">
-                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                 The role of attachment styles in regulating the effects of dopamine in the behavior of salespersons.
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="clearfix">
+                        <div class="feature-left">  
+                           <div class="maleo-tab-text">   
+                           <h6>Over verkoopangst</h6> 
+                              <p class="text-overflow">
+                                 Sales call anxiety: exploring what it means when fear rules a sales encounter.
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="clearfix">
+                        <div class="feature-left">  
+                           <div class="maleo-tab-text">   
+                           <h6>Waarom sommige vekopers moeite hebben met het verkopen van nieuwe producten</h6> 
+                              <p class="text-overflow">
+                                 Salespersons as internal knowledgebrokers and new product selling: discovering the link to genetic makeup.
                               </p>
                            </div>
                         </div>

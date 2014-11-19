@@ -7,7 +7,7 @@
    <meta name="description" content="Maleo - Multipurpose HTML5 Template">
    <meta name="author" content="prodigystudio.net">
 
-   <title>InsightYou - Het gedachtegoed van InsightYou</title>
+   <title>InsightYou - Hoe werkt het?</title>
    
    <!-- Reset CSS -->
    <link rel="stylesheet" href="css/reset.css" />
@@ -53,87 +53,34 @@
       <?php
       require_once 'paginas.php';
       require_once 'menu.php';
-      require_once '2_submenu.php';
+      require_once '4_submenu.php';
       ?>
 
-      <section class="mo-content bg-full" id="process">
-         <div class="row p-b-sm">
-            <div class="large-12 column mo-animate text-center" data-animate="fadeInDown">
-               <h4>Talentontwikkeling aan de hand van vier fasen.</h4>
-               <p>Wij brengen de vier levensfasen van professionals in kaart.</p>
-            </div>
-         </div>
+      <section class="mo-content bg-lightblue p-t-m p-b-m">
          <div class="row">
-            <div class="large-6 medium-6 medium-potrait-12 small-12 columns mo-animate" data-animate="bounceIn" data-delay="200">
-               <div class="feature-right process">
-                  <div class="no-shape">
-                     <img src="img/evolutie-1.png" alt="">
-                  </div>    
-                  <h5>Biologisch startpunt</h5>
-                  <h6>DNA</h6> 
-                  <p>
-                     Ons DNA is afkomstig van onze ouders en vormt het fundament van wie we zijn en waar we vandaan komen. Het is de blauwdruk voor alle stofjes in ons lichaam - waaronder in de hersenen - en speelt dus een belangrijke rol in wie we zijn en wat we doen.
-                  </p>
-               </div>
-            </div>
-
-            <div class="large-6 medium-6 medium-potrait-12 small-12 columns mo-animate" data-animate="bounceIn" data-delay="400">
-               <div class="feature-right process">
-                  <div class="no-shape">
-                     <img src="img/evolutie-2.png" alt=""> 
-                  </div>  
-                  <h5>Biologische ontwikkeling</h5>
-                  <h6>Hechtingsstijlen</h6> 
-                  <p>
-                     In de eerste paar jaar van ons leven passen onze biologische systemen zich aan aan de omgeving waarin we opgroeien. Onze ouders en opvoeding spelen hierin een belangrijke rol, maar de rest van onze sociale omgeving natuurlijk ook.
-                  </p>
-               </div>
-            </div>
-
-            <div class="large-6 medium-6 medium-potrait-12 small-12 columns mo-animate" data-animate="bounceIn" data-delay="800">
-               <div class="feature-right process">
-                  <div class="no-shape">
-                     <img src="img/evolutie-3.png" alt="">  
-                  </div>    
-                  <h5>Persoonlijke ontwikkeling</h5>
-                  <h6>Drijfveren & motivaties</h6> 
-                  <p>
-                     Vervolgens gaan we ons als persoon ontwikkelen. Denk hierbij aan de vorming van bepaalde voorkeuren, motivaties en drijfveren.
-                  </p>
-               </div>
-            </div>
-
-            <div class="large-6 medium-6 medium-potrait-12 small-12 columns mo-animate" data-animate="bounceIn" data-delay="600">
-               <div class="feature-right process">
-                  <div class="no-shape">
-                     <img src="img/evolutie-4.png" alt="">  
-                  </div>    
-                  <h5>Professionele ontwikkeling</h5>
-                  <h6>Commercieel fundament</h6> 
-                  <p>
-                     Onze biologische en persoonlijke ontwikkeling moet je interpreteren in de professionele context waarin we actief zijn. Daarom brengen wij ook commerciële drives in kaart. Zo komen we tot een totaalbeeld.
-                  </p>
-               </div>
+            <div class="large-12 columns">
+               <h4 class="whitetext m-b-sm">Stap 2: Ontwikkel-assessment.</h4>
+               <p class="m-b-none">Jouw DNA analyse vullen we aan met de resultaten uit een online ontwikkel-assessment.</p>
             </div>
          </div>
       </section>
 
       <section class="mo-content">
          <div class="row">
-            <div class="large-6 columns mo-animate text-center" data-animate="fadeInDown">
-               ...
+            <div class="large-6 columns">
+               <h4>Online assessment</h4>
+               <p>De online assessment is ontwikkeld op basis van 25 jaar wetenschappelijke onderzoek. Deze assessment brengt jouw levenservaringen in kaart zodat je een totaalbeeld krijgt van jouw biologische identiteit.</p>
             </div>
-            <div class="large-6 columns mo-animate" data-animate="fadeInDown">
-               <h4>Lorem ipsum dolor sit amet.</h4>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur magnam, eveniet illo eligendi suscipit inventore dignissimos facilis, dolores id unde molestiae! Vero sint excepturi, debitis dolorem, commodi vitae temporibus quos dignissimos inventore, molestiae sapiente. Adipisci enim beatae totam illo nesciunt perspiciatis, reprehenderit!</p>
+            <div class="large-6 columns text-center">
+               ...
             </div>
          </div>
       </section>
-
-      <?php 
-         require_once 'footer.php'; 
-      ?>
       
+      <?php 
+         require_once 'cta_block.php'; 
+      ?>
+
       <?php 
          require_once 'footer.php'; 
       ?>
