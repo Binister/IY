@@ -53,12 +53,13 @@
 
       
       <?php
+      require_once 'paginas.php';
       require_once 'menu.php'; 
       ?>
       
       <section class="mo-content">
          <div class="row p-b-sm">
-            <div class="large-12 column mo-animate text-center" data-animate="fadeInDown">
+            <div class="large-12 column text-center">
                <h4>Zij zijn al gegroeid.</h4>
                <p>Wij beseffen: je DNA afstaan is wat ongebruikelijk. Maar de uitkomsten zijn verbluffend. Eerdere deelnemers vertellen je graag over hun ervaringen.</p>
             </div>
@@ -67,16 +68,16 @@
 
             <div id="portfolio-filter" class="m-b-sm">
                <ul>
-                  <li><a class="button button-border mo-animate radius selected" data-filter="*">Alle profielen</a></li>
-                  <li><a class="button button-border mo-animate radius" data-filter=".sales" data-animate="bounceIn" data-delay="300">Sales profiel</a></li>
-                  <li><a class="button button-border mo-animate radius" data-filter=".sales-leadership" data-animate="bounceIn" data-delay="600">Sales Leadership profiel</a></li>
-                  <li><a class="button button-border mo-animate radius" data-filter=".sales-talent" data-animate="bounceIn" data-delay="900">Sales Talent profiel</a></li>
+                  <li><a class="button button-border radius selected" data-filter="*">Alle profielen</a></li>
+                  <li><a class="button button-border radius" data-filter=".sales">Sales profiel</a></li>
+                  <li><a class="button button-border radius" data-filter=".sales-leadership">Sales Leadership profiel</a></li>
+                  <li><a class="button button-border radius" data-filter=".sales-talent">Sales Talent profiel</a></li>
                </ul>
             </div>
             <ul class="portfolio-container large-block-grid-2 medium-block-grid-2 small-block-grid-1 no-gutter">
                   <li class="sales">            
                      <div class="large-12 medium-12 columns">
-                        <div class="testi style3 mo-animate" data-animate="fadeInLeft">
+                        <div class="testi style3">
                            <div class="testi-container">
                               <blockquote>
                                  <p>De uitslag van mijn InsightYou Sales profiel blijft me positief ‘achtervolgen’. Telkens als ik een gesprek voer met een klant zie ik mijn profiel terug in mijn handelen. Mijn ‘biologische kracht’ benut ik in mijn salesgesprekken en gebruik ik om mijn collega’s aan te vullen en te ondersteunen. Voor de punten waar ik onder de benchmark scoor roep ik actief hulp in. Mooi zou zijn om dit voor een salesteam te doen, zodat je optimaal van elkaar ‘gebruik’ kunt maken.</p>
@@ -97,7 +98,7 @@
                   </li>
                   <li class="sales">            
                      <div class="large-12 medium-12 columns">
-                        <div class="testi style3 mo-animate" data-animate="fadeInLeft">
+                        <div class="testi style3">
                            <div class="testi-container">
                               <blockquote>
                                  <p>De uitslag van mijn InsightYou Sales profiel blijft me positief ‘achtervolgen’. Telkens als ik een gesprek voer met een klant zie ik mijn profiel terug in mijn handelen. Mijn ‘biologische kracht’ benut ik in mijn salesgesprekken en gebruik ik om mijn collega’s aan te vullen en te ondersteunen. Voor de punten waar ik onder de benchmark scoor roep ik actief hulp in. Mooi zou zijn om dit voor een salesteam te doen, zodat je optimaal van elkaar ‘gebruik’ kunt maken.</p>
@@ -118,7 +119,7 @@
                   </li>
                   <li class="sales">            
                      <div class="large-12 medium-12 columns">
-                        <div class="testi style3 mo-animate" data-animate="fadeInLeft">
+                        <div class="testi style3">
                            <div class="testi-container">
                               <blockquote>
                                  <p>De uitslag van mijn InsightYou Sales profiel blijft me positief ‘achtervolgen’. Telkens als ik een gesprek voer met een klant zie ik mijn profiel terug in mijn handelen. Mijn ‘biologische kracht’ benut ik in mijn salesgesprekken en gebruik ik om mijn collega’s aan te vullen en te ondersteunen. Voor de punten waar ik onder de benchmark scoor roep ik actief hulp in. Mooi zou zijn om dit voor een salesteam te doen, zodat je optimaal van elkaar ‘gebruik’ kunt maken.</p>
@@ -139,7 +140,7 @@
                   </li>
                   <li class="sales">            
                      <div class="large-12 medium-12 columns">
-                        <div class="testi style3 mo-animate" data-animate="fadeInLeft">
+                        <div class="testi style3">
                            <div class="testi-container">
                               <blockquote>
                                  <p>De uitslag van mijn InsightYou Sales profiel blijft me positief ‘achtervolgen’. Telkens als ik een gesprek voer met een klant zie ik mijn profiel terug in mijn handelen. Mijn ‘biologische kracht’ benut ik in mijn salesgesprekken en gebruik ik om mijn collega’s aan te vullen en te ondersteunen. Voor de punten waar ik onder de benchmark scoor roep ik actief hulp in. Mooi zou zijn om dit voor een salesteam te doen, zodat je optimaal van elkaar ‘gebruik’ kunt maken.</p>
