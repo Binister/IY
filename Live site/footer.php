@@ -1,6 +1,6 @@
 
 <footer>
-   <section class="mo-content footer-content bg-lightblue whitetext">
+   <section class="mo-content footer-content bg-darkgrey whitetext">
       <div class="row">
          <div class="large-3 medium-3 medium-potrait-12 columns">
             <p>&copy; 2014 InsightYou B.V.</p>        
@@ -17,8 +17,8 @@
          <div class="large-3 medium-3 medium-potrait-4 columns">
             <h6 class="whitetext">Quick Links</h6>
             <ul>
-               <li><a href="<?php echo $page2_1 ?>">Ontwikkelen</a></li>
-               <li><a href="<?php echo $page3 ?>">Ervaringen</a></li>
+               <li><a href="<?php echo $page2_1 ?>">Gedachtegoed</a></li>
+               <li><a href="<?php echo $page3 ?>">Succesverhalen</a></li>
                <li><a href="<?php echo $page4_1 ?>">Hoe werkt het?</a></li>
                <li><a href="#">Ik ben trainer / coach</a></li>
                <li><a href="#">Log in</a></li>

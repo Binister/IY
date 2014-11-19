@@ -32,20 +32,17 @@
 
       <nav class="menu-content">
          <ul id="menu" class="sm mo-menu">
-            <li class="<?php echo ($_SERVER['PHP_SELF'] == '/biologische-identiteit.php' || $_SERVER['PHP_SELF'] == '/ontwikkeling-van-talent.php' || $_SERVER['PHP_SELF'] == '/wetenschappelijk-fundament.php' || $_SERVER['PHP_SELF'] == '/professionele-context.php'? ' active' : '');?>"><a href="biologische-identiteit">Gedachtegoed</a>
+            <li class="<?php echo ($_SERVER['PHP_SELF'] == $page2_1.".php" || $_SERVER['PHP_SELF'] == $page2_2.".php" || $_SERVER['PHP_SELF'] == $page2_3.".php" || $_SERVER['PHP_SELF'] == $page2_4.".php" ?' active' : '');?>"><a href="<?php echo $page2_1 ?>">Gedachtegoed</a>
             </li>
-            <li class="<?php echo ($_SERVER['PHP_SELF'] == '/succesverhalen.php' ? ' active' : '');?>"><a href="succesverhalen">Succesverhalen</a>
+            <li class="<?php echo ($_SERVER['PHP_SELF'] == $page3.".php" ?' active' : '');?>"><a href="<?php echo $page3 ?>">Succesverhalen</a>
             </li>
-            <li class="<?php echo ($_SERVER['PHP_SELF'] == '/dna-analyse.php' ? ' active' : '');?>"><a href="dna-analyse">Hoe werkt het?</a>
+            <li class="<?php echo ($_SERVER['PHP_SELF'] == $page4_1.".php" || $_SERVER['PHP_SELF'] == $page4_2.".php" || $_SERVER['PHP_SELF'] == $page4_3.".php" || $_SERVER['PHP_SELF'] == $page4_4.".php" ?' active' : '');?>"><a href="<?php echo $page4_1 ?>">Hoe werkt het?</a>
             </li>
-         </ul>
-         <ul class="header-info1">   
-            <a href=""><li class="phone-info darkbluebutton">
-               Ik ben trainer / coach
-            </li></a>
-            <a href=""><li class="phone-info pinktext pinkborder pinkbutton">
-               Log in
-            </li></a>
+            <li class="menu-button no-bullet darkbluebutton m-r-sm <?php echo ($_SERVER['PHP_SELF'] == ''.".php" ?' active' : '');?>"><a href="#">Ik ben trainer / coach</a>
+            </li>
+            <li class="menu-button no-bullet pinkbutton <?php echo ($_SERVER['PHP_SELF'] == ''.".php" ?' active' : '');?>"><a href="#">Log in</a>
+            </li>
+
          </ul>
       </nav>
    </div>
