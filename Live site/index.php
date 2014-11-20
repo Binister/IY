@@ -333,7 +333,7 @@
                   <p>
                      Jouw DNA vormt de basis van wie je bent en daarmee jouw biologische identiteit. Met een DNA analyse onderzoeken we waar jouw natuurlijke talenten vandaan komen.
                      <br>
-                     <a class="button link" href="#">Waarom DNA?<i class="icon-chevron-right"></i></a>
+                     <a class="button link" href="<?php echo $page4_1 ?>">Waarom DNA?<i class="icon-chevron-right"></i></a>
                   </p>
                </div>
             </div>
@@ -347,7 +347,7 @@
                   <p>
                      Levenservaringen zijn belangrijk voor jouw verdere ontwikkeling. Dit brengen we in kaart met een wetenschappelijk gevalideerde ontwikkel-assessment (online).
                      <br>
-                     <a class="button link" href="#">Wetenschappelijke basis<i class="icon-chevron-right"></i></a>
+                     <a class="button link" href="<?php echo $page4_2 ?>">Wetenschappelijke basis<i class="icon-chevron-right"></i></a>
                   </p>
                </div>
             </div>
@@ -361,7 +361,7 @@
                   <p>
                      De uitslag van jouw ontwikkel-assessment combineren we met de uitslag van de DNA analyse zodat je inzicht krijgt in jouw biologische identiteit. Welkom bij jezelf.
                      <br>
-                     <a class="button link" href="#">Wat kan ik ermee?<i class="icon-chevron-right"></i></a>
+                     <a class="button link" href="<?php echo $page4_3 ?>">Wat kan ik ermee?<i class="icon-chevron-right"></i></a>
                   </p>
                </div>
             </div>
@@ -375,7 +375,7 @@
                   <p>
                      Je kunt jouw uitslagen direct gebruiken als startpunt voor een doelgericht ontwikkel-traject in de vorm van coaching, training, opleiding of blended learning.
                      <br>
-                     <a class="button link" href="#">Blijf groeien<i class="icon-chevron-right"></i></a>
+                     <a class="button link" href="<?php echo $page4_4 ?>">Blijf groeien<i class="icon-chevron-right"></i></a>
                   </p>
                </div>
             </div>
