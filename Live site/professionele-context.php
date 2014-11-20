@@ -68,8 +68,7 @@
       <section class="mo-content">
          <div class="row">
             <div class="large-12 column text-center">
-               <h4>Kennis moet leiden tot actie.</h4>
-               <p>Inzicht in jezelf helpt je alleen excelleren als de feedback die je ontvangt ook relevant is voor jouw professionele context. Daarom hebben wij verschillende InsightYou profielen ontwikkeld. Kies hieronder het profiel dat bij je past.</p>
+               <h4>Verschillende profielen.</h4>
             </div>
          </div>
       </section>
