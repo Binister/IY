@@ -59,7 +59,7 @@
       <section class="mo-content bg-full">
          <div class="row p-b-sm">
             <div class="large-12 column">
-               <h4>Ontdek waar jouw talenten vandaan komen.</h4>
+               <h4 class="darkbluetext">Ontdek waar jouw talenten vandaan komen<span class="pinktext">.</span></h4>
                <p>Het gaat niet om het voorspellen van talent, maar jouw talenten succesvol in te leren zetten en uit te bouwen. Jouw biologische identiteit ontwikkeld zich in vier levensfasen. Wij bieden je inzicht in de fase waar jouw talenten vandaan komen, zodat je in staat bent het maximale uit jezelf te halen. </p>
             </div>
          </div>

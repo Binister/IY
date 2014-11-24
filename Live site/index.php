@@ -290,7 +290,7 @@
       <section class="mo-content bg-full" id="subheader">
          <div class="row">
             <div class="large-8 medium-8 medium-potrait-7 small-12 columns">
-               <h4>InsightYou is een ontwikkelplatform voor professionals. Met een DNA analyse en een wetenschappelijk gevalideerde ontwikkel-assessment helpen wij je om doelgericht te groeien op basis van jouw biologische identiteit.</h4>
+               <h4 class="increase-lineheight">InsightYou is een ontwikkelplatform voor professionals. Met een DNA analyse en een wetenschappelijk gevalideerde ontwikkel-assessment helpen wij je om doelgericht te groeien op basis van jouw biologische identiteit.</h4>
             </div>
 
             <div class="large-4 medium-4 medium-potrait-5 small-12 small-center columns text-center mo-animate" data-animate="fadeInRight">
@@ -318,11 +318,11 @@
          </div>   
       </section>
 
-      <section class="mo-content p-b-sm">
+      <section class="mo-content">
          <div class="row">
             <div class="large-12 column text-center">
-               <h4>Welkom bij jezelf.</h4>
-               <p>Jij bent uniek. De manier waarop jouw hersenen informatie verwerken en opslaan is anders dan ieder ander. Wij noemen dat jouw biologische identiteit. Om doelgericht te kunnen ontwikkelen als professional, is het dan ook cruciaal dat jouw ontwikkelplan is afgestemd op wie jij bent. Wij zullen je daarbij helpen.</p>
+               <h3 class="darkbluetext">Welkom bij jezelf<span class="pinktext">.</span></h3>
+               <p>Jij bent uniek. De manier waarop jouw hersenen informatie verwerken en opslaan is anders dan ieder ander. Om doelgericht te kunnen ontwikkelen als professional, is het dan ook cruciaal dat jouw ontwikkelplan is afgestemd op wie jij bent. Wij helpen jou hierbij in vier stappen.</p>
             </div>
             <div class="large-3 medium-6 columns">
                <div class="feature process">
@@ -382,53 +382,46 @@
          </div>
       </section>
 
-      <section class="mo-contentfull bg-full" data-bottom="0" data-top="0">
+      <section class="mo-contentfull bluegradient whitetext" data-bottom="0" data-top="0">
          <div class="row">
             <div class="large-12 columns text-center">
-               <h4>Betrouwbaar & transparant.</h4>
+               <h3 class="darkbluetext">Betrouwbaar & transparant<span class="pinktext">.</span></h3>
                <p>Het ontwikkelen en delen van kennis is onze passie. Daarom baseren wij de InsightYou profielen op meer dan 25 jaar aan wetenschappelijk onderzoek. Wil je meer achtergrondinformatie over de validiteit van onze modellen, lees dan onze wetenschappelijke publicaties.</p>
             </div>
          </div> 
          <div class="row counter-trigger p-t-sm">
             <div class="large-3 medium-3 medium-potrait-6 small-6 small-potrait-12 columns text-center company-fact mo-animate" data-animate="fadeInDown">
-               <h2 class="mo-counter timer darkbluetext" data-to="268" data-speed="4000">268</h2>
+               <h2 class="mo-counter timer whitetext" data-to="268" data-speed="4000">268</h2>
                <p>Onderzoeken</p>
             </div>
 
             <div class="large-3 medium-3 medium-potrait-6 small-6 small-potrait-12 columns text-center company-fact mo-animate" data-animate="fadeInDown" data-delay="200"> 
-               <h2 class="mo-counter timer darkbluetext" data-to="79747" data-speed="4000">79747</h2>
+               <h2 class="mo-counter timer whitetext" data-to="79747" data-speed="4000">79747</h2>
                <p>Professionals</p>
             </div>
 
             <div class="large-3 medium-3 medium-potrait-6 small-6 small-potrait-12 columns text-center company-fact mo-animate" data-animate="fadeInDown" data-delay="400">
-               <h2 class="mo-counter timer darkbluetext" data-to="4317" data-speed="4000">4317</h2>
+               <h2 class="mo-counter timer whitetext" data-to="4317" data-speed="4000">4317</h2>
                <p>Organisaties</p>
             </div>
 
             <div class="large-3 medium-3 medium-potrait-6 small-6 small-potrait-12 columns text-center company-fact mo-animate" data-animate="fadeInDown" data-delay="600">
-               <h2 class="mo-counter timer darkbluetext" data-to="1553" data-speed="4000">1553</h2>
+               <h2 class="mo-counter timer whitetext" data-to="1553" data-speed="4000">1553</h2>
                <p>DNA analyses</p>
             </div>     
          </div> 
       </section>     
 
-      <section class="mo-content p-t-sm">
+      <section class="mo-content">
          <div class="row">
             <div class="large-12 columns" data-bottom="20">
-               <h4 class="gap text-center">Word onderdeel van de InsightYou community.</h4>
+               <h3 class="gap text-center darkbluetext">Word onderdeel van de InsightYou community<span class="pinktext">.</span></h3>
             </div>
 
-            <div class="large-6 medium-12 columns">
-               <div class="testi style3">
-                  <?php echo $testimonialsToEcho[0]; ?>        
-               </div>
-            </div>
-
-            <div class="large-6 medium-12 columns">
-               <div class="testi style3">
-                  <?php echo $testimonialsToEcho[1]; ?>         
-               </div>
-            </div>
+            <?php 
+               echo $testimonialsToEcho[0]; 
+               echo $testimonialsToEcho[1]; 
+            ?>
          </div>
       </section>
 

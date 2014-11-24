@@ -59,7 +59,7 @@
       <section class="mo-content bg-full">
          <div class="row">
             <div class="large-12 column">
-               <h4>Kennis moet leiden tot actie.</h4>
+               <h4 class="darkbluetext">Kennis moet leiden tot actie<span class="pinktext">.</span></h4>
                <p>Inzicht in jezelf helpt je alleen excelleren als de feedback die je ontvangt ook relevant is voor jouw professionele context. Daarom hebben wij verschillende InsightYou profielen ontwikkeld. Kies hieronder het profiel dat bij je past.</p>
             </div>
          </div>
@@ -68,7 +68,7 @@
       <section class="mo-content">
          <div class="row">
             <div class="large-12 column text-center">
-               <h4>Verschillende profielen.</h4>
+               <h4 class="darkbluetext">Verschillende profielen<span class="pinktext">.</span></h4>
             </div>
          </div>
       </section>

@@ -54,13 +54,14 @@
       
       <?php
       require_once 'paginas.php';
-      require_once 'menu.php'; 
+      require_once 'menu.php';
+      require_once 'testimonials.php' 
       ?>
       
       <section class="mo-content">
          <div class="row p-b-sm">
             <div class="large-12 column text-center">
-               <h4>Zij zijn al gegroeid.</h4>
+               <h4 class="darkbluetext">Zij zijn al gegroeid<span class="pinktext">.</span></h4>
                <p>Wij beseffen: je DNA afstaan is wat ongebruikelijk. Maar de uitkomsten zijn verbluffend. Eerdere deelnemers vertellen je graag over hun ervaringen.</p>
             </div>
          </div>
@@ -74,97 +75,17 @@
                   <li><a class="button button-border radius" data-filter=".sales-talent">Sales Talent profiel</a></li>
                </ul>
             </div>
-            <ul class="portfolio-container large-block-grid-2 medium-block-grid-2 small-block-grid-1 no-gutter">
-                  <li class="sales">            
-                     <div class="large-12 medium-12 columns">
-                        <div class="testi style3">
-                           <div class="testi-container">
-                              <blockquote>
-                                 <p>De uitslag van mijn InsightYou Sales profiel blijft me positief ‘achtervolgen’. Telkens als ik een gesprek voer met een klant zie ik mijn profiel terug in mijn handelen. Mijn ‘biologische kracht’ benut ik in mijn salesgesprekken en gebruik ik om mijn collega’s aan te vullen en te ondersteunen. Voor de punten waar ik onder de benchmark scoor roep ik actief hulp in. Mooi zou zijn om dit voor een salesteam te doen, zodat je optimaal van elkaar ‘gebruik’ kunt maken.</p>
-                              </blockquote>
-                           </div>
+            <div class="portfolio-container">
 
-                           <div class="image">
-                              <img src="img/client_pictures/wouter_glas.jpg" alt="" />
-                           </div>
-
-                           <div class="name">Wouter Glas
-                              <br/>
-                              <span class="label white radius">Manager &ndash; Pro Garden</span>
-                              <a href="#" class="darkbluetext"> <i class="icon-linkedin"></i></a>
-                           </div>         
-                        </div>
-                     </div>             
-                  </li>
-                  <li class="sales">            
-                     <div class="large-12 medium-12 columns">
-                        <div class="testi style3">
-                           <div class="testi-container">
-                              <blockquote>
-                                 <p>De uitslag van mijn InsightYou Sales profiel blijft me positief ‘achtervolgen’. Telkens als ik een gesprek voer met een klant zie ik mijn profiel terug in mijn handelen. Mijn ‘biologische kracht’ benut ik in mijn salesgesprekken en gebruik ik om mijn collega’s aan te vullen en te ondersteunen. Voor de punten waar ik onder de benchmark scoor roep ik actief hulp in. Mooi zou zijn om dit voor een salesteam te doen, zodat je optimaal van elkaar ‘gebruik’ kunt maken.</p>
-                              </blockquote>
-                           </div>
-
-                           <div class="image">
-                              <img src="img/client_pictures/wouter_glas.jpg" alt="" />
-                           </div>
-
-                           <div class="name">Wouter Glas
-                              <br/>
-                              <span class="label white radius">Manager &ndash; Pro Garden</span>
-                              <a href="#" class="darkbluetext"> <i class="icon-linkedin"></i></a>
-                           </div>         
-                        </div>
-                     </div>             
-                  </li>
-                  <li class="sales">            
-                     <div class="large-12 medium-12 columns">
-                        <div class="testi style3">
-                           <div class="testi-container">
-                              <blockquote>
-                                 <p>De uitslag van mijn InsightYou Sales profiel blijft me positief ‘achtervolgen’. Telkens als ik een gesprek voer met een klant zie ik mijn profiel terug in mijn handelen. Mijn ‘biologische kracht’ benut ik in mijn salesgesprekken en gebruik ik om mijn collega’s aan te vullen en te ondersteunen. Voor de punten waar ik onder de benchmark scoor roep ik actief hulp in. Mooi zou zijn om dit voor een salesteam te doen, zodat je optimaal van elkaar ‘gebruik’ kunt maken.</p>
-                              </blockquote>
-                           </div>
-
-                           <div class="image">
-                              <img src="img/client_pictures/wouter_glas.jpg" alt="" />
-                           </div>
-
-                           <div class="name">Wouter Glas
-                              <br/>
-                              <span class="label white radius">Manager &ndash; Pro Garden</span>
-                              <a href="#" class="darkbluetext"> <i class="icon-linkedin"></i></a>
-                           </div>         
-                        </div>
-                     </div>             
-                  </li>
-                  <li class="sales">            
-                     <div class="large-12 medium-12 columns">
-                        <div class="testi style3">
-                           <div class="testi-container">
-                              <blockquote>
-                                 <p>De uitslag van mijn InsightYou Sales profiel blijft me positief ‘achtervolgen’. Telkens als ik een gesprek voer met een klant zie ik mijn profiel terug in mijn handelen. Mijn ‘biologische kracht’ benut ik in mijn salesgesprekken en gebruik ik om mijn collega’s aan te vullen en te ondersteunen. Voor de punten waar ik onder de benchmark scoor roep ik actief hulp in. Mooi zou zijn om dit voor een salesteam te doen, zodat je optimaal van elkaar ‘gebruik’ kunt maken.</p>
-                              </blockquote>
-                           </div>
-
-                           <div class="image">
-                              <img src="img/client_pictures/wouter_glas.jpg" alt="" />
-                           </div>
-
-                           <div class="name">Wouter Glas
-                              <br/>
-                              <span class="label white radius">Manager &ndash; Pro Garden</span>
-                              <a href="#" class="darkbluetext"> <i class="icon-linkedin"></i></a>
-                           </div>         
-                        </div>
-                     </div>             
-                  </li>
-            </ul>
+               <?php foreach($testimonials as $testimonial) {
+                  echo $testimonial;
+               }; ?>
+            </div>
          </div>
       </section>
 
       <?php 
-         require_once 'footer.php'; 
+         require_once 'cta_block.php'; 
       ?>
 
       <?php 

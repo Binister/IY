@@ -59,7 +59,7 @@
       <section class="mo-content bg-full">
          <div class="row">
             <div class="large-6 columns">
-               <h4>Stap in je biologische kracht.</h4>
+               <h4 class="darkbluetext">Stap in je biologische kracht<span class="pinktext">.</span></h4>
                <p>Het is onze filosofie dat professionals alleen duurzaam succesvol kunnen zijn als ze hun biologische talenten inzetten in een rol die van nature bij ze past.</p>
             </div>
             <div class="large-6 columns">
@@ -74,16 +74,16 @@
                ...
             </div>
             <div class="large-6 columns">
-               <h4>Waar komt wie ik ben vandaan?</h4>
+               <h4 class="darkbluetext">Waar komt wie ik ben vandaan?</h4>
                <p>We denken vaak dat we ons logisch en rationeel gedragen. Dit blijkt echter vaker niet dan wel het geval te zijn. Aan veel van onze talenten en valkuilen liggen onbewuste processen ten grondslag. </p>Sinds jaar en dag is men op zoek naar de oorsprong van deze processen, maar kwamen we niet verder dan onze psyche te benaderen als een 'black-box'. Recent wetenschappelijk onderzoek heeft hier echter verandering in gebracht.</p>
             </div>
          </div>
       </section>
 
-      <section class="mo-content bg-full">
+      <section class="mo-content">
          <div class="row">
             <div class="large-6 columns">
-               <h4>Biologische identiteit.</h4>
+               <h4 class="darkbluetext">Biologische identiteit<span class="pinktext">.</span></h4>
                <p>Met de opkomst van de neurowetenschappen en inzichten in de genetica is onze kennis over deze 'black-box' spectaculair toegenomen. Het blijkt dat de manier waarop jij je gedraagt grotendeels afhankelijk is van de manier waarop de verschillende biologische systemen in jouw hersenen zich gedurende jouw leven hebben ontwikkeld. Dit noemen we jouw biologische identiteit.</p>
             </div>
             <div class="large-6 columns mo-animate text-center" data-animate="fadeInDown">

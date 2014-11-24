@@ -59,7 +59,7 @@
       <section class="mo-content bg-full">
          <div class="row">
             <div class="large-12 column">
-               <h4>Onze kennisdoelstelling.</h4>
+               <h4 class="darkbluetext">Onze kennisdoelstelling<span class="pinktext">.</span></h4>
                <p>Het ontwikkelen en delen van kennis is onze passie. Daarom zijn de InsightYou profielen gebaseerd op 25 jaar aan wetenschappelijk onderzoek.</p>
             </div>
          </div>
@@ -68,7 +68,7 @@
       <section class="mo-content">
          <div class="row">
             <div class="large-12 column text-center">
-               <h4>Awards.</h4>
+               <h4 class="darkbluetext">Awards<span class="pinktext">.</span></h4>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo similique recusandae possimus, maxime in facere!</p>
             </div>
          </div>
@@ -88,7 +88,7 @@
       <section class="mo-content" id="service2">
          <div class="row m-b-sm">
             <div class="large-12 column text-center">
-               <h4>Wetenschappelijk fundament.</h4>
+               <h4 class="darkbluetext">Wetenschappelijk fundament<span class="pinktext">.</span></h4>
             </div>
          </div>   
          <div class="row">
