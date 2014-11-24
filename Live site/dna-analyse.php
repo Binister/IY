@@ -71,44 +71,59 @@
                <h4>Waarom DNA?</h4>
                <p>Om te kunnen begrijpen waar je talenten, intuïties en voorkeuren vandaan komen moet je beginnen bij de basis. Het fundament van wie we zijn verstopt zit in ons DNA. Daarom combineren wij de nieuwste wetenschappelijke inzichten op het gebied van ons DNA om professionals een nog beter inzicht in zichzelf te geven. </p>
             </div>
-            <div class="large-6 columns mo-animate text-center" data-animate="fadeInDown">
-               ...
+            <div class="large-6 columns mo-animate" data-animate="fadeInRight">
+               <div class="video-container text-center">
+                  <img src="img/dna-kit.png" alt="">
+               </div>
             </div>
          </div>
       </section>
 
-      <section class="mo-content bg-full">
+      
+      <div class="mo-contentfull separator-inner">
          <div class="row">
-            <div class="large-6 columns mo-animate text-center" data-animate="fadeInDown">
-               ...
-            </div>
-            <div class="large-6 columns">
+            <hr>
+         </div>
+      </div>
+
+      <section class="mo-content">
+         <div class="row">
+            <div class="large-6 large-offset-6 columns">
                <h4>Voorspellen of verklaren?</h4>
                <p>‘Wie we zijn’ en ‘wat we doen’ is het gevolg van een complex samenspel tussen nature (DNA) en nurture (omgeving). Het is daarom onmogelijk om alleen op basis van DNA iets over een persoon te zeggen. De manier waarop wij ons ontwikkelen wordt immers ook beïnvloed door de manier waarop we opgevoed zijn en onze verdere levenservaringen. DNA heeft wel verklarende waarde: het helpt je begrijpen waar jouw natuurlijk gedrag vandaan komt.</p>
             </div>
          </div>
       </section>
 
-      <section class="mo-content">
+      <section class="mo-content bg-full">
          <div class="row">
             <div class="large-6 columns">
                <h4>Hoe meten we DNA?</h4>
                <p>Wij halen jouw DNA uit speeksel, wat je kunt afstaan via de unieke InsightYou DNA Kit. Jouw DNA wordt vervolgens geanalyseerd in een ISO17025 gecertificeerd laboratorium in Nederland. Zo weet je zeker dat jouw DNA veilig en betrouwbaar verwerkt wordt.</p>
+               <a class="button button-border radius darkbluebutton" href=""><i class="icon-download-alt m-r-sm"></i>Download de FAQ over DNA</a>
             </div>
-            <div class="large-6 columns mo-animate text-center" data-animate="fadeInDown">
-               ...
+            <div class="image-box-right large-6 columns mo-animate text-center" data-animate="fadeInRight">
+               <div class="video-container">
+                  <img src="img/dna_afname_screenshot.png" alt="">
+                  <a class="video-play fancybox-media" href="https://www.youtube.com/watch?v=e-btiT3vccI&spfreload=10">
+                     <i class="icon-circleplay"></i>
+                  </a>
+               </div>
             </div>
          </div>
       </section>
 
-      <section class="mo-content bg-full">
+      <section class="mo-content">
          <div class="row">
-            <div class="large-6 columns mo-animate text-center" data-animate="fadeInDown">
-               ...
+            <div class="large-6 columns mo-animate" data-animate="fadeInLeft">
+               <div class="video-container text-center">
+                  <img src="img/beveiliging.png" alt="">
+               </div>
             </div>
             <div class="large-6 columns">
                <h4>Privacy en anonimiteit.</h4>
                <p>Jouw DNA gegevens worden digitaal in anonieme vorm opgeslagen. Dit houdt in dat het onmogelijk is om jouw persoonsgegevens te koppelen aan deze DNA gegevens. Door jouw persoonsgegevens te splitsen van jouw gegevens, hebben we gekozen voor optimale veiligheid.</p>
+               <a class="button button-border radius darkbluebutton" href=""><i class="icon-download-alt m-r-sm"></i>Download onze privacycode</a>
             </div>
          </div>
       </section>
@@ -119,8 +134,10 @@
                <h4>DNA sleutel</h4>
                <p>Hoe is het dan toch mogelijk dat jij zelf wel inzicht krijgt doormiddel van persoonlijke feedback? Hierin speelt de persoonlijke DNA sleutel die je ontvangt een cruciale rol. Elke keer dat jij inlogt op je persoonlijke InsightYou profiel wordt je gevraagd om jouw unieke DNA sleutel in te voeren. Pas op het moment dat je die invult, wordt de koppeling tussen jouw persoonsgegevens en jouw profielgegevens gemaakt. Deze koppeling gebeurt ‘live’ en verdwijnt ook weer op het moment dat jij uitlogt.</p>
             </div>
-            <div class="large-6 columns mo-animate text-center" data-animate="fadeInDown">
-               ...
+            <div class="large-6 columns mo-animate" data-animate="fadeInRight">
+               <div class="video-container text-center">
+                  <img src="img/dna-sleutel.png" alt="">
+               </div>
             </div>
          </div>
       </section>
