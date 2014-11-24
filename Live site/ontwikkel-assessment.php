@@ -69,7 +69,7 @@
          <div class="row">
             <div class="large-6 columns">
                <h4>Online assessment</h4>
-               <p>De online assessment is ontwikkeld op basis van 25 jaar wetenschappelijke onderzoek. Deze assessment brengt jouw levenservaringen in kaart zodat je een totaalbeeld krijgt van jouw biologische identiteit.</p>
+               <p>De online assessment is ontwikkeld op basis van 25 jaar wetenschappelijk onderzoek. Deze assessment brengt jouw levenservaringen in kaart zodat je een totaalbeeld krijgt van jouw biologische identiteit.</p>
             </div>
             <div class="large-6 columns text-center">
                ...
