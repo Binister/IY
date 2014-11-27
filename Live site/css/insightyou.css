@@ -266,7 +266,7 @@ header {
 
 .menu-button { 
   border: 2px solid #1C9AD6;
-  color: #1C9AD6 !important;
+  color: #1C9AD6;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
@@ -276,6 +276,14 @@ header {
 
 .menu-button a:hover {
   color: #fff;
+}
+
+ul, ol, dl {
+  margin-bottom: 0px;
+}
+
+.bg-full {
+  background: #f5f5f5;
 }
 
 #slider-wrapper h3 {
@@ -340,23 +348,23 @@ header {
 
 .pinkbutton:hover {
   background-color: #EC008C !important;
-  color: white !important;
+  color: #fff !important;
   border-color: #EC008C !important;
 }
 
 .darkbluebutton:hover {
   background-color: #005A96 !important;
-  color: white !important;
+  color: #fff !important;
   border-color: #005A96 !important;
 }
 
 .orangebutton {
-  background-color: rgba(255, 148, 0, 1) !important;
+  background-color: #FF9400 !important;
   color: white !important;
 }
 
 .orangebutton:hover {
-  background-color: rgba(255, 148, 0, 0.85) !important;
+  background-color: #FFBA26 !important;
 }
 
 .bg-lightblue {
@@ -364,131 +372,131 @@ header {
 }
 
 .p-t {
-  padding-top: 50px !important;
+  padding-top: 50px;
 }
 
 .p-b {
-  padding-bottom: 50px !important;
+  padding-bottom: 50px;
 }
 
 .p-t-m {
-  padding-top: 25px !important;
+  padding-top: 25px;
 }
 
 .p-b-m {
-  padding-bottom: 25px !important;
+  padding-bottom: 25px;
 }
 
 .p-t-sm {
-  padding-top: 12px !important;
+  padding-top: 12px;
 }
 
 .p-b-sm {
-  padding-bottom: 12px !important;
+  padding-bottom: 12px;
 }
 
 .p-t-none {
-  padding-top: 0 !important;
+  padding-top: 0;
 }
 
 .p-b-none {
-  padding-bottom: 0 !important;
+  padding-bottom: 0;
 }
 
 .p-r {
-  padding-right: 50px !important;
+  padding-right: 50px;
 }
 
 .p-l {
-  padding-left: 50px !important;
+  padding-left: 50px;
 }
 
 .p-r-m {
-  padding-right: 25px !important;
+  padding-right: 25px;
 }
 
 .p-l-m {
-  padding-left: 25px !important;
+  padding-left: 25px;
 }
 
 .p-r-sm {
-  padding-right: 12px !important;
+  padding-right: 12px;
 }
 
 .p-l-sm {
-  padding-left: 12px !important;
+  padding-left: 12px;
 }
 
 .p-r-none {
-  padding-right: 0 !important;
+  padding-right: 0;
 }
 
 .p-l-none {
-  padding-left: 0 !important;
+  padding-left: 0;
 }
 
 .m-t {
-  margin-top: 50px !important;
+  margin-top: 50px;
 }
 
 .m-b {
-  margin-bottom: 50px !important;
+  margin-bottom: 50px;
 }
 
 .m-t-m {
-  margin-top: 25px !important;
+  margin-top: 25px;
 }
 
 .m-b-m {
-  margin-bottom: 25px !important;
+  margin-bottom: 25px;
 }
 
 .m-t-sm {
-  margin-top: 12px !important;
+  margin-top: 12px;
 }
 
 .m-b-sm {
-  margin-bottom: 12px !important;
+  margin-bottom: 12px;
 }
 
 .m-t-none {
-  margin-top: 0 !important;
+  margin-top: 0;
 }
 
 .m-b-none {
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 
 .m-r {
-  margin-right: 50px !important;
+  margin-right: 50px;
 }
 
 .m-l {
-  margin-left: 50px !important;
+  margin-left: 50px;
 }
 
 .m-r-m {
-  margin-right: 25px !important;
+  margin-right: 25px;
 }
 
 .m-l-m {
-  margin-left: 25px !important;
+  margin-left: 25px;
 }
 
 .m-r-sm {
-  margin-right: 12px !important;
+  margin-right: 12px;
 }
 
 .m-l-sm {
-  margin-left: 12px !important;
+  margin-left: 12px;
 }
 
 .m-r-none {
-  margin-right: 0 !important;
+  margin-right: 0;
 }
 
 .m-l-none {
-  margin-left: 0 !important;
+  margin-left: 0;
 }
 
 .feature {
@@ -525,7 +533,6 @@ header {
 }
 
 .increase-lineheight {
-  font-weight: 400; 
   line-height: 1.5em
 }
 
@@ -600,27 +607,30 @@ footer .scroll-top:hover {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   #slider-wrapper h2 {
     font-size: 2em !important;
   }
-
-  .darkbluebutton {
-    color: #005A96 !important;
-    border: none !important;
-    border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+  
+  .menu-button {
+    border-width: 0px;
     border-radius: 0px !important;
+  }
+
+  ul .darkbluebutton {
+    border-width: 0px !important;
     margin-right: 0px !important;
-  }
-
-  .pinkbutton {
-    color: #EC008C !important;
-    border: none !important;
     border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
     border-radius: 0px !important;
   }
 
-  .darkbluebutton:hover {
+  ul .pinkbutton {
+    border-width: 0px !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+    border-radius: 0px !important;
+  }
+
+  ul .darkbluebutton:hover {
     color: #005A96 !important;
     background-color: white !important;
     border: none !important;
@@ -628,10 +638,18 @@ footer .scroll-top:hover {
     margin-right: 0px !important;
   }
 
-  .pinkbutton:hover {
+  ul .pinkbutton:hover {
     color: #EC008C !important;
     background-color: white !important;
     border: none !important;
     border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+  }
+
+    ul .darkbluebutton a:hover {
+    color: #1C9AD6 !important;
+  }
+
+  ul .pinkbutton a:hover {
+    color: #1C9AD6 !important;
   }
 }
