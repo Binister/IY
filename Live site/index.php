@@ -303,7 +303,7 @@
             <div class="large-12 columns gap text-center">
                <p>Professionals van deze organisaties gingen je voor:</p>        
             </div>
-            <div class="large-8 medium 12 medium-offset-0 large-offset-2 columns gap">
+            <div class="large-10 medium-12 medium-offset-0 large-offset-1 columns gap">
             <ul id="carousel-testimonial" class="owl-carousel">
                <li><img src="img/client_logo/kpn.png" alt=""></li>
                <li><img src="img/client_logo/bkv.png" alt=""></li>
@@ -320,7 +320,7 @@
 
       <section class="mo-content">
          <div class="row">
-            <div class="large-12 column text-center">
+            <div class="large-12 column text-center m-b-m">
                <h3 class="darkbluetext">Welkom bij jezelf<span class="pinktext">.</span></h3>
                <p>Jij bent uniek. De manier waarop jouw hersenen informatie verwerken en opslaan is anders dan ieder ander. Om doelgericht te kunnen ontwikkelen als professional, is het dan ook cruciaal dat jouw ontwikkelplan is afgestemd op wie jij bent. Wij helpen jou hierbij in vier stappen.</p>
             </div>
@@ -415,7 +415,7 @@
       <section class="mo-content">
          <div class="row">
             <div class="large-12 columns" data-bottom="20">
-               <h3 class="gap text-center darkbluetext">Word onderdeel van de InsightYou community<span class="pinktext">.</span></h3>
+               <h3 class="gap text-center darkbluetext m-b-m">Word onderdeel van de InsightYou community<span class="pinktext">.</span></h3>
             </div>
 
             <?php 
