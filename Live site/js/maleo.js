@@ -773,6 +773,45 @@
          });
       }
    }
+
+/* -----------------------------------------------------------------------
+ * Jquery Preload
+ * ----------------------------------------------------------------------- */
+   if (!Modernizr.touch) {
+      if ($.
+         fn.queryLoader2) {
+         // IE check
+         if (navigator.userAgent.match(/msie|trident/i)){
+            console.log("your browser is so old");
+            // IE CSS Hack
+            $(".social-icon.cube").find(".back").css("display","none");
+            $(".mo-caption .preview, .mo-caption .permalink").css("left","50%");
+         } else {
+            $("header nav").hide();
+
+            $("body").queryLoader2({
+               barColor: "#fff",
+               backgroundColor: "#1C9AD6",
+               percentage: true,
+               barHeight: 5,
+               completeAnimation: "grow",
+               minimumTime: 100,
+               onLoadComplete: function() {
+                  // call animation_hide function
+                  animation_hide(); 
+                  $("header nav").show();  
+               },
+
+               onComplete: function() {
+                  // call animation_run function
+                  animation_run();
+               }
+            });
+         }
+      } else {
+         console.log("jQuery Loader 2 plugin not found");
+      }
+   }
   
 })(jQuery);
 
