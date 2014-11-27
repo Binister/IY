@@ -69,10 +69,12 @@
          <div class="row">
             <div class="large-6 columns">
                <h4>Persoonlijk profiel.</h4>
-               <p>Jouw InsightYou profiel geeft jouw inzicht in jouw biologische identiteit. Dit profiel bevat de uitslag van jouw DNA analyse en jouw online ontwikkel-assessment, met een duidelijke uitleg hoe je de resultaten kunt interpreteren.</p>
+               <p>Jouw InsightYou profiel geeft jouw inzicht in jouw biologische identiteit. Dit profiel bevat de uitslag van jouw DNA analyse en jouw online ontwikkel-assessment, met een duidelijke uitleg hoe je de resultaten kunt interpreteren. Jouw profiel is voor jou alleen. Het is daarna aan jou of je de inzichten met anderen wilt delen.</p>
             </div>
-            <div class="large-6 columns mo-animate text-center" data-animate="fadeInDown">
-               ...
+            <div class="large-6 columns mo-animate" data-animate="fadeInRight">
+               <div class="video-container text-center">
+                  <img src="img/profiel-componenten.png" alt="">
+               </div>
             </div>
          </div>
       </section>
