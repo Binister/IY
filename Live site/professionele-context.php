@@ -71,11 +71,43 @@
                <h4 class="darkbluetext">Verschillende profielen<span class="pinktext">.</span></h4>
             </div>
          </div>
+
+         <div class="row">   
+
+            <div class="large-4 medium-6 medium-potrait-6 columns mo-animate" data-animate="bounceIn" data-delay="200">
+               <div class="panel fold">
+                  <h4>Sales Talent profiel</h4>
+                  <p>Sta je aan het begin van een commerciële carrière? Dan is dit het juiste moment om te ontdekken waar je natuurlijke talenten en voorkeuren liggen. Het Sales Talent profiel helpt je hierbij, zodat je een efficiënt en effectief groeitraject kunt inzetten. Dit profiel is specifiek ontwikkeld voor professionals met een beperkte ervaring in sales.</p>
+                  <a class="button orangebutton radius" href="#">Selecteer dit profiel</a>
+               </div>                        
+            </div>
+
+            <div class="large-4 medium-6 medium-potrait-6 columns mo-animate" data-animate="bounceIn" data-delay="400">
+               <div class="panel fold">
+                  <h4>Sales profiel</h4>
+                  <p>Ben je sales directeur, key accountmanager of commercieel medewerker? Dan is het InsightYou Sales profiel wat voor jou! Ieder profiel bestaat uit een DNA kit en psychologische test. Je hebt daarnaast de keuze uit verschillende vormen van feedback en persoonlijke coaching zodat je direct met de resultaten aan de slag kunt.</p>
+                  <a class="button orangebutton radius" href="#">Selecteer dit profiel</a>
+               </div>                        
+            </div>
+
+            <div class="large-4 medium-6 medium-potrait-6 columns mo-animate" data-animate="bounceIn" data-delay="600">
+               <div class="panel fold">
+                  <h4>Sales Leadership profiel</h4>
+                  <p>Ben jij verantwoordelijk voor de prestaties van een team? Denk je daarnaast mee met de strategische keuzes en wil je inzicht in hoe je daar nog succesvoller in kan zijn? Dan past het InsightYou Leadership profiel bij jou! Ieder profiel bestaat uit een DNA kit en psychologische test. Je hebt daarnaast keuze uit verschillende vormen van feedback en persoonlijke coaching zodat je direct met de resultaten aan de slag kunt.</p>
+                  <a class="button orangebutton radius" href="#">Selecteer dit profiel</a>
+               </div>                        
+            </div>
+            
+            <div class="large-4 medium-6 medium-potrait-6 columns mo-animate" data-animate="bounceIn" data-delay="800">
+               <div class="panel fold">
+                  <h4>Leadership</h4>
+                  <p>Sta je aan het begin van een commerciële carrière? Dan is dit het juiste moment om te ontdekken waar je natuurlijke talenten en voorkeuren liggen. Het Sales Talent profiel helpt je hierbij, zodat je een efficiënt en effectief groeitraject kunt inzetten. Dit profiel is specifiek ontwikkeld voor professionals met een beperkte ervaring in sales.</p>
+                  <a class="button orangebutton radius" href="#">Selecteer dit profiel</a>
+               </div>                        
+            </div>
+            </div> 
+         </div>  
       </section>
-      
-      <?php 
-         require_once 'cta_block.php'; 
-      ?>
       
       <?php 
          require_once 'footer.php'; 
