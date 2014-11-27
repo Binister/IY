@@ -79,7 +79,6 @@
          </div>
       </section>
 
-      
       <div class="mo-contentfull separator-inner">
          <div class="row">
             <hr>
@@ -88,11 +87,17 @@
 
       <section class="mo-content">
          <div class="row">
-            <div class="large-6 large-offset-6 columns">
+            <div class="large-6 columns mo-animate" data-animate="fadeInLeft">
+               <div class="video-container text-center">
+                  <img src="img/profiel-componenten.png" alt="">
+               </div>
+            </div>
+            <div class="large-6 columns">
                <h4>Voorspellen of verklaren?</h4>
                <p>‘Wie we zijn’ en ‘wat we doen’ is het gevolg van een complex samenspel tussen nature (DNA) en nurture (omgeving). Het is daarom onmogelijk om alleen op basis van DNA iets over een persoon te zeggen. De manier waarop wij ons ontwikkelen wordt immers ook beïnvloed door de manier waarop we opgevoed zijn en onze verdere levenservaringen. DNA heeft wel verklarende waarde: het helpt je begrijpen waar jouw natuurlijk gedrag vandaan komt.</p>
             </div>
          </div>
+         
       </section>
 
       <section class="mo-content bg-full">
@@ -127,6 +132,12 @@
             </div>
          </div>
       </section>
+      
+      <div class="mo-contentfull separator-inner">
+         <div class="row">
+            <hr>
+         </div>
+      </div>
 
       <section class="mo-content">
          <div class="row">
